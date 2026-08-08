@@ -51,7 +51,7 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(18,17,26,0.9
 .quote-bar{background:var(--night);border-top:1px solid rgba(201,168,76,0.3);border-bottom:1px solid rgba(201,168,76,0.3);padding:10px 24px;text-align:center}
 .quote-bar p{font-size:0.85em;color:#eae4d8;font-style:italic;margin:0}
 .quote-bar span{color:var(--gold);font-style:normal;font-weight:700}
-.hero{min-height:100vh;background:linear-gradient(160deg,var(--night) 0%,var(--night2) 40%,#1a1535 100%);display:flex;flex-direction:column;justify-content:center;padding:120px 40px 80px;position:relative;overflow:hidden}
+.hero{height:calc(100vh - 105px);max-height:700px;min-height:520px;background:linear-gradient(160deg,var(--night) 0%,var(--night2) 40%,#1a1535 100%);display:flex;flex-direction:column;justify-content:center;padding:120px 40px 80px;position:relative;overflow:hidden}
 .hero::before{content:'';position:absolute;top:0;left:0;right:0;bottom:0;background:url('/images/roof-01-hero.jpg') center/cover no-repeat;opacity:0.1}
 .hero-guarantee{display:inline-flex;align-items:center;gap:10px;background:rgba(201,168,76,0.12);border:1px solid rgba(201,168,76,0.35);color:var(--gold);padding:8px 20px;border-radius:8px;font-size:0.8em;font-weight:600;letter-spacing:0.5px;margin-bottom:28px;width:fit-content;position:relative}
 .hero h1{font-family:var(--ff-display);font-size:clamp(3.5em,8vw,6.5em);line-height:0.95;color:var(--white);letter-spacing:2px;margin-bottom:8px;position:relative}
@@ -127,7 +127,7 @@ footer{background:#080810;color:rgba(255,255,255,0.5);padding:48px 40px 32px;tex
 .footer-links a{color:rgba(255,255,255,0.4);text-decoration:none;font-size:0.85em;transition:color 0.2s}
 .footer-links a:hover{color:var(--gold)}
 .footer-copy{font-size:0.8em;color:rgba(255,255,255,0.25)}
-@media(max-width:768px){nav{padding:0 20px}.nav-links{display:none}section{padding:64px 20px}.hero{padding:100px 20px 60px}.stats-bar{gap:32px;padding:24px 20px}.trust-bar{gap:20px;padding:20px}.cta-section{padding:64px 20px}.keywords-section{padding:48px 20px}}
+@media(max-width:768px){nav{padding:0 20px}.nav-links{display:none}section{padding:64px 20px}.hero{height:auto;max-height:none;min-height:0;padding:100px 20px 60px}.stats-bar{gap:32px;padding:24px 20px}.trust-bar{gap:20px;padding:20px}.cta-section{padding:64px 20px}.keywords-section{padding:48px 20px}}
 .scripture-bar{background:#0a0a12;border-bottom:1px solid rgba(201,168,76,.25);padding:7px 22px;font-family:system-ui,-apple-system,sans-serif;font-size:12px;font-weight:700;letter-spacing:.08em;color:#c9a84c}
 body{padding-top:34px}.scripture-bar{position:fixed;top:0;left:0;right:0;z-index:9999;background:#0a0a12;border-bottom:1px solid rgba(201,168,76,.25);padding:7px 22px;font-family:system-ui,-apple-system,sans-serif;font-size:12px;font-weight:700;letter-spacing:.08em;color:#c9a84c}nav{top:34px !important}
 </style>
