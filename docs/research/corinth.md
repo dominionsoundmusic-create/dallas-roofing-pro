@@ -8,6 +8,7 @@
 - City home repair grant program (Ordinance 23-12-07-46): contractors must give at least a one-year written warranty on general repairs and five years on roof repairs, and get all permits from Building Inspections before work. https://www.cityofcorinth.com/sites/default/files/fileattachments/neighborhood_services/page/24808/23-12-07-46.pdf
 - Storm reports (StormerSite archive of NWS local storm reports): 2019 64 mph gust measured at the NCTC Corinth campus; 2025 considerable wind damage reported along FM 1385 into the Sutton Fields subdivision (trees and street signs down, construction trailers tipped). https://www.stormersite.com/hail_reports/corinth_texas/all
 - EF-1 tornado (NWS: 85 to 95 mph, half-mile path, 50 yards wide) damaged a car wash near I-35 and Swisher Road in Hickory Creek and the Kensington Square shopping center (NBC DFW headline "in Corinth"). https://www.nbcdfw.com/news/local/storm-damages-car-wash-shopping-center/174056/ ; https://www.fox4news.com/news/storms-bring-tornado-high-winds-rain-to-north-texas
+- March 14, 2024: NWS Fort Worth named this town among places with hail of about 1.5 to 3 inches. https://www.aol.com/live-weather-updates-storm-damage-004426788.html
 
 ## Could not verify / left out
 - Date of the Hickory Creek/Corinth EF-1 (likely Nov 17, 2015, inferred only): page gives no date.

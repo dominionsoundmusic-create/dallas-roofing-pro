@@ -7,6 +7,7 @@
 - Commercial permit packet (2021): general contractor must be registered with Roanoke before the permit is issued; no registration fee. https://roanoketexas.com/DocumentCenter/View/3508/2021-Commercial-Building-Permit-Application-Packet
 - Fairway Ranch: built on part of the 700-acre ranch once owned by golfer Byron Nelson, near historic downtown; listings show homes built about 2013 to 2019. https://www.davidweekleyhomes.com/news/article/fairway-ranch-from-david-weekley-homes-offers-move-in-ready-homes ; https://spencer.roveridx.com/tx/roanoke/fairway-ranch-ph-1/944-highpoint-way/
 - Hail: StormerSite listings show 2 inch hail about 1 mile from Roanoke on May 27, 2024, and a 1.5 inch report about 3 miles away the same evening. https://www.stormersite.com/hail_reports/roanoke_texas/all
+- March 14, 2024: NWS Fort Worth named this town among places with hail of about 1.5 to 3 inches. https://www.aol.com/live-weather-updates-storm-damage-004426788.html
 
 ## Could not verify / left out
 - Whether residential re-roofs specifically need a permit and whether residential roofers must register: page states the general rule and the commercial packet's GC rule, and says to ask.
