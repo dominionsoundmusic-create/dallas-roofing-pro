@@ -503,3 +503,13 @@ body > .skiptranslate { display: none !important; }
 .form button { justify-self: start; border: 0; }
 .form__note { font-size: .9rem; color: var(--muted); margin: 0; }
 .split .form { margin: 0; }
+
+/* rows never leave a hole on the right: panel grids and fact rows wrap like the card rows
+   (3 / 2 / 1 columns), and a short last row is centered */
+.grid-2, .grid-3 { display: flex; flex-wrap: wrap; justify-content: center; gap: 22px; }
+.grid-3 > * { flex: 0 0 calc((100% - 2 * 22px) / 3); min-width: 0; }
+.grid-2 > * { flex: 0 0 calc((100% - 22px) / 2); min-width: 0; }
+@media (max-width: 1100px) { .grid-3 > * { flex-basis: calc((100% - 22px) / 2); } }
+@media (max-width: 700px) { .grid-3 > *, .grid-2 > * { flex-basis: 100%; } }
+.facts, .prose .facts { display: flex; flex-wrap: wrap; justify-content: center; }
+.facts > li { flex: 1 1 200px; }

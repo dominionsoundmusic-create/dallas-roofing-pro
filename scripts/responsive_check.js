@@ -1,5 +1,6 @@
 // Browser QA over the built site: horizontal overflow at 1440/1024/768/390, JS errors, broken images,
-// hero height and call button above the fold, hero text on the left rail at 1440/1920/2560.
+// hero height and call button above the fold, hero text on the left rail at 1440/1920/2560, and card,
+// panel, step and photo rows whose short last row leaves a hole on the right (390/768/1024/1440/1920).
 // Usage: (serve dist on :8765 first) NODE_PATH=$(npm root -g) node scripts/responsive_check.js [baseUrl] [--shots dir]
 const { chromium } = require("playwright");
 const fs = require("fs");
@@ -37,7 +38,7 @@ function pages(dir, out = []) {
     await page.route("**/*", (r) => (r.request().url().startsWith(base) ? r.continue() : r.abort()));
     page.on("console", (m) => { if (m.type() === "error" && !m.text().startsWith("Failed to load resource")) errs.push(m.text()); });
     page.on("response", (rs) => { if (rs.url().startsWith(base) && rs.status() >= 400) errs.push(rs.status() + " " + rs.url()); });
-    const list = width > 1440 ? urls.filter((u) => u === "/" || u.includes("katy-tx") || u === "/roof-repair/") : urls;
+    const list = width > 1440 ? urls.filter((u) => u === "/" || u.includes("fort-worth-tx") || u.includes("plano-tx") || u === "/roof-repair/") : urls;
     for (const u of list) {
       errs = [];
       await page.goto(base + u, { waitUntil: "load" });
@@ -65,16 +66,33 @@ function pages(dir, out = []) {
           h1Left: h1 ? Math.round(h1.getBoundingClientRect().left) : null,
           callBottom: call ? Math.round(call.getBoundingClientRect().bottom) : null,
           vh: window.innerHeight, vw: de.clientWidth,
+          holes: (() => {
+            const out = [];
+            for (const c of document.querySelectorAll(".cards, .grid-2, .grid-3, .facts, .how-strip, .cta__facts, .split")) {
+              const kids = [...c.children].filter((k) => k.getBoundingClientRect().width > 0);
+              if (kids.length < 2) continue;
+              const cb = c.getBoundingClientRect();
+              const tops = kids.map((k) => Math.round(k.getBoundingClientRect().top));
+              const lastTop = Math.max(...tops);
+              const last = kids.filter((k, i) => Math.abs(tops[i] - lastTop) < 4).map((k) => k.getBoundingClientRect());
+              if (last.length === kids.length) continue; // one row only: nothing wraps
+              const left = Math.min(...last.map((b) => b.left)) - cb.left;
+              const right = cb.right - Math.max(...last.map((b) => b.right));
+              if (right > 60 && left < 10) out.push((c.className || c.tagName) + ` (${last.length} item(s) in last row, ${Math.round(right)}px empty on the right)`);
+            }
+            return out;
+          })(),
         };
       });
       if (r.over > 0) problems.push(`${width}px ${u}: horizontal overflow ${r.over}px (${r.wide.join(", ")})`);
+      if ([390, 768, 1024, 1440, 1920].includes(width) && r.holes.length) problems.push(`${width}px ${u}: row with a hole on the right: ${r.holes.join("; ")}`);
       if (r.broken.length) problems.push(`${width}px ${u}: broken images ${r.broken.join(", ")}`);
       if (errs.length) problems.push(`${width}px ${u}: JS errors ${errs.join(" | ")}`);
       if (r.heroW !== null && r.heroW < r.vw - 1) problems.push(`${width}px ${u}: hero not edge to edge (${r.heroW} of ${r.vw})`);
       if (width >= 1024 && r.heroH !== null && r.heroH > 720) problems.push(`${width}px ${u}: hero ${r.heroH}px tall`);
       if (width >= 1024 && r.callBottom !== null && r.callBottom > r.vh) problems.push(`${width}px ${u}: call button below the fold (${r.callBottom} > ${r.vh})`);
       if (width >= 1440 && r.h1Left !== null && r.h1Left > Math.min(140, width * 0.055) + 2) problems.push(`${width}px ${u}: hero headline not on the left rail (left ${r.h1Left})`);
-      if (shots && (u === "/" || u === "/roofing-companies-katy-tx/" || u === "/roof-repair/")) {
+      if (shots && (u === "/" || u === "/roofing-companies-fort-worth-tx/" || u === "/roofing-contractors-plano-tx/" || u === "/roof-repair/")) {
         fs.mkdirSync(shots, { recursive: true });
         await page.screenshot({ path: path.join(shots, `${width}${u.replace(/[\/.]/g, "_")}.png`), fullPage: width <= 1440 });
       }
