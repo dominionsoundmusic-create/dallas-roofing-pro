@@ -1,0 +1,16 @@
+{% set b = site.business %}
+<section class="band band--navy cta" aria-labelledby="cta-title">
+  <div class="wide cta__grid">
+    <div class="cta__text">
+      <h2 id="cta-title">{{ page.cta_title | default('Need a roofer in Dallas-Fort Worth? Start with one free call') }}</h2>
+      <p>{{ page.cta_text | default('Say what the roof is doing and which town you are in. The automated assistant passes you to an independent roofing company that is locally owned and works in DFW. That company comes out, looks at the roof and prices the job itself.') }}</p>
+      <p><a class="btn btn--orange btn--big" href="tel:{{ b.phone_tel }}">{{ site.cta.primary_label }}</a></p>
+    </div>
+    <ul class="cta__facts">
+      <li><strong>Picks up day or night</strong>Storms here often hit in the evening. The assistant answers at 2 a.m. the same as at noon.</li>
+      <li><strong>Costs you nothing</strong>The line sends no bill. Any price you hear comes from the roofer, and you can ask for it on paper.</li>
+      <li><strong>Check before you hire</strong>Texas issues no roofing license, so ask for an insurance certificate, a written contract and the permit your city requires.</li>
+      <li><strong>Your call to make</strong>Listen to what the roofer found, read the estimate, and say yes only when it adds up.</li>
+    </ul>
+  </div>
+</section>

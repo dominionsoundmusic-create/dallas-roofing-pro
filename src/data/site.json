@@ -1,0 +1,786 @@
+{
+ "business": {
+  "name": "DFW Expert Roofers",
+  "legal_name": "Dominion Digital Group",
+  "dba_note": "DFW Expert Roofers is a d/b/a of Dominion Digital Group.",
+  "category": "Roofing referral line for the Dallas-Fort Worth metroplex",
+  "origin": "https://dfwexpertroofers.com",
+  "phone": "(469) 649-7066",
+  "email": "",
+  "address_public": false,
+  "hours": "The phone line is answered 24 hours a day, 7 days a week by an automated assistant.",
+  "logo": "/images/logo.svg",
+  "logo_width": 243,
+  "logo_height": 64,
+  "theme_color": "#12111a",
+  "description": "A free phone line for roof leaks, hail and storm damage, repairs and replacements across Dallas-Fort Worth. An automated assistant answers 24/7 and connects callers with an independent, locally owned roofing company.",
+  "short_disclosure": "DFW Expert Roofers is a free phone line, not a roofing contractor. It answers your call and connects you with an independent local roofing company, which inspects, quotes and does the work, and which you pay directly.",
+  "referral_disclosure": "Companies may pay a referral fee. Calling the line costs you nothing.",
+  "quote_text": "I believe the unbelievable, I receive the impossible, because it's doable.",
+  "quote_author": "Jesse Duplantis",
+  "scripture": "John 3:16",
+  "copyright": "© 2026 Dominion Digital Group. All rights reserved.",
+  "credit_text": "Designed by Dominion Web Design Pro",
+  "credit_url": "https://dominionwebdesignpro.com",
+  "checklist_pdf": "/files/dallas-hail-storm-claim-checklist.pdf"
+ },
+ "cta": {
+  "primary_label": "Call {phone}",
+  "secondary_label": "How the free line works",
+  "secondary_href": "/how-it-works/"
+ },
+ "analytics": {
+  "ga4": "G-DDH28794K5",
+  "gtm": ""
+ },
+ "forms": {
+  "contact": "dallas-roofing-contact",
+  "checklist": "dallas-hail-checklist"
+ },
+ "social": {
+  "facebook": "https://www.facebook.com/dallasmetroroofingpro",
+  "instagram": "",
+  "tiktok": "",
+  "youtube": "",
+  "google_business": ""
+ },
+ "nav": [
+  {
+   "label": "Services",
+   "menu": "services",
+   "href": "/services/"
+  },
+  {
+   "label": "Service Areas",
+   "menu": "areas",
+   "href": "/service-areas/"
+  },
+  {
+   "label": "Guides",
+   "menu": "guides"
+  },
+  {
+   "label": "How It Works",
+   "href": "/how-it-works/"
+  },
+  {
+   "label": "About",
+   "href": "/about/"
+  },
+  {
+   "label": "FAQ",
+   "href": "/faq/"
+  },
+  {
+   "label": "Contact",
+   "href": "/contact/"
+  }
+ ],
+ "footer_links": [
+  {
+   "label": "All Services",
+   "href": "/services/"
+  },
+  {
+   "label": "How It Works",
+   "href": "/how-it-works/"
+  },
+  {
+   "label": "Hail Claim Checklist",
+   "href": "/hail-claim-checklist/"
+  },
+  {
+   "label": "About",
+   "href": "/about/"
+  },
+  {
+   "label": "FAQ",
+   "href": "/faq/"
+  },
+  {
+   "label": "Contact",
+   "href": "/contact/"
+  },
+  {
+   "label": "Privacy Policy",
+   "href": "/privacy-policy.html"
+  },
+  {
+   "label": "Terms of Service",
+   "href": "/terms.html"
+  }
+ ],
+ "services": [
+  {
+   "slug": "roof-repair",
+   "url": "/roof-repair/",
+   "name": "Roof Repair in Dallas",
+   "short": "Roof Repair",
+   "card_image": "roof-02-card.jpg",
+   "summary": "Missing tabs, cracked pipe boots, nail pops and worn flashing. When a fix is enough, and what a written repair quote in DFW should spell out."
+  },
+  {
+   "slug": "roof-replacement",
+   "url": "/roof-replacement/",
+   "name": "Roof Replacement in Dallas",
+   "short": "Roof Replacement",
+   "card_image": "dallas-roof-replace-hero.jpg",
+   "summary": "Tear-off, decking, underlayment, ventilation and the permit your city may require. Signs a North Texas roof is done, and how to compare bids."
+  },
+  {
+   "slug": "roof-leak-repair",
+   "url": "/roof-leak-repair/",
+   "name": "Roof Leak Repair in Dallas",
+   "short": "Roof Leak Repair",
+   "card_image": "ceiling-leak-bucket-living-room.jpg",
+   "summary": "Why the stain is rarely under the hole, the usual leak points on DFW roofs, and safe steps indoors while you wait for a roofer."
+  },
+  {
+   "slug": "storm-damage-roof-repair",
+   "url": "/storm-damage-roof-repair/",
+   "name": "Storm Damage Roof Repair in Dallas",
+   "short": "Storm Damage",
+   "card_image": "oak-limb-on-roof-after-storm.jpg",
+   "summary": "Hail, straight-line wind, falling limbs and tornado debris. The order of things after a North Texas storm, from photos to the adjuster."
+  },
+  {
+   "slug": "hail-damage-roof-repair",
+   "url": "/hail-damage-roof-repair/",
+   "name": "Hail Damage Roof Repair in Dallas",
+   "short": "Hail Damage",
+   "card_image": "hail-damaged-shingles-closeup.jpg",
+   "summary": "Bruised shingles, granule loss and dented metal. How hail damage is found, documented and repaired in one of the hailiest metros in the country."
+  },
+  {
+   "slug": "wind-damage-roof-repair",
+   "url": "/wind-damage-roof-repair/",
+   "name": "Wind Damage Roof Repair in Dallas",
+   "short": "Wind Damage",
+   "card_image": "dfw-wind-lifted-shingles-ridge.jpg",
+   "summary": "Creased and missing shingles, peeled ridge caps and lifted edges after straight-line winds. What a wind inspection should check."
+  },
+  {
+   "slug": "roof-inspection",
+   "url": "/roof-inspection/",
+   "name": "Roof Inspection in Dallas",
+   "short": "Roof Inspection",
+   "card_image": "attic-roof-decking-flashlight-inspection.jpg",
+   "summary": "After a storm, before a sale, or when a roof just looks tired. What a thorough inspection covers and what the written report should show."
+  },
+  {
+   "slug": "emergency-roof-repair",
+   "url": "/emergency-roof-repair/",
+   "name": "Emergency Roof Repair and Tarping in Dallas",
+   "short": "Emergency Repair and Tarping",
+   "card_image": "blue-emergency-tarp-on-brick-home.jpg",
+   "summary": "An open roof, a limb through the deck or water coming in during a storm. Safe first steps and what an emergency tarp job involves."
+  },
+  {
+   "slug": "commercial-roofing",
+   "url": "/commercial-roofing/",
+   "name": "Commercial Roofing in Dallas",
+   "short": "Commercial Roofing",
+   "card_image": "strip-center-low-slope-roof.jpg",
+   "summary": "TPO, modified bitumen, metal and coatings on offices, shops, churches and warehouses. Repairs, replacements and what owners should ask."
+  },
+  {
+   "slug": "flat-roof-repair",
+   "url": "/flat-roof-repair/",
+   "name": "Flat Roof Repair in Dallas",
+   "short": "Flat Roof Repair",
+   "card_image": "roof-06-card.jpg",
+   "summary": "Ponding water, open seams, blistered membranes and clogged drains on low-slope roofs over homes, garages and businesses."
+  },
+  {
+   "slug": "metal-roofing",
+   "url": "/metal-roofing/",
+   "name": "Metal Roofing in Dallas",
+   "short": "Metal Roofing",
+   "card_image": "standing-seam-metal-roof-farmhouse.jpg",
+   "summary": "Standing seam and exposed-fastener panels, hail ratings, heat and color. When metal makes sense on a North Texas house or building."
+  },
+  {
+   "slug": "roof-flashing-repair",
+   "url": "/roof-flashing-repair/",
+   "name": "Roof Flashing Repair in Dallas",
+   "short": "Flashing Repair",
+   "card_image": "chimney-step-flashing.jpg",
+   "summary": "Where flashing goes on a roof (chimneys, walls, valleys, vents and skylights) and why so many DFW leaks start at it."
+  }
+ ],
+ "guides": [
+  {
+   "slug": "roof-replacement-cost-dallas",
+   "url": "/roof-replacement-cost-dallas/",
+   "name": "Roof Replacement Cost in Dallas-Fort Worth",
+   "short": "Roof Replacement Cost",
+   "summary": "What drives the price of a new roof in DFW, published cost ranges with their sources, and how to read a bid line by line."
+  },
+  {
+   "slug": "roof-insurance-claim-texas",
+   "url": "/roof-insurance-claim-texas/",
+   "name": "Roof Insurance Claims in Texas",
+   "short": "Roof Insurance Claims",
+   "summary": "Hail and wind deductibles, actual cash value versus replacement cost, claim deadlines, and what Texas law lets a roofer do and not do."
+  },
+  {
+   "slug": "do-roofers-need-a-license-in-texas",
+   "url": "/do-roofers-need-a-license-in-texas/",
+   "name": "How to Check a Roofer Before You Hire in Texas",
+   "short": "How to Check a Roofer",
+   "summary": "Texas has no state roofing license. What you can check instead: city registration, insurance certificates, permits, contracts and warranties."
+  },
+  {
+   "slug": "how-long-does-a-roof-last-in-texas",
+   "url": "/how-long-does-a-roof-last-in-texas/",
+   "name": "How Long a Roof Lasts in North Texas",
+   "short": "How Long a Roof Lasts",
+   "summary": "Typical life spans for shingle, metal, tile and flat roofs, and what North Texas hail, heat and wind take off those numbers."
+  },
+  {
+   "slug": "what-to-do-after-storm-damage-to-roof",
+   "url": "/what-to-do-after-storm-damage-to-roof/",
+   "name": "What to Do After Storm Damage to Your Roof",
+   "short": "After Storm Damage",
+   "summary": "The first hour, day and week after a DFW storm: safety, photos, the insurer, a tarp and the door knockers."
+  }
+ ],
+ "areas": [
+  {
+   "slug": "allen",
+   "url": "/roofing-company-allen-tx/",
+   "name": "Allen",
+   "city": "Allen",
+   "county": "Collin",
+   "summary": ""
+  },
+  {
+   "slug": "anna",
+   "url": "/roofing-anna-tx/",
+   "name": "Anna",
+   "city": "Anna",
+   "county": "Collin",
+   "summary": ""
+  },
+  {
+   "slug": "argyle",
+   "url": "/roofing-argyle-tx/",
+   "name": "Argyle",
+   "city": "Argyle",
+   "county": "Denton",
+   "summary": ""
+  },
+  {
+   "slug": "arlington",
+   "url": "/roofing-arlington-tx/",
+   "name": "Arlington",
+   "city": "Arlington",
+   "county": "Tarrant",
+   "summary": ""
+  },
+  {
+   "slug": "aubrey",
+   "url": "/roofing-aubrey-tx/",
+   "name": "Aubrey",
+   "city": "Aubrey",
+   "county": "Denton",
+   "summary": ""
+  },
+  {
+   "slug": "azle",
+   "url": "/roofing-azle-tx/",
+   "name": "Azle",
+   "city": "Azle",
+   "county": "Tarrant and Parker",
+   "summary": ""
+  },
+  {
+   "slug": "bedford",
+   "url": "/roofing-bedford-tx/",
+   "name": "Bedford",
+   "city": "Bedford",
+   "county": "Tarrant",
+   "summary": ""
+  },
+  {
+   "slug": "benbrook",
+   "url": "/roofing-benbrook-tx/",
+   "name": "Benbrook",
+   "city": "Benbrook",
+   "county": "Tarrant",
+   "summary": ""
+  },
+  {
+   "slug": "burleson",
+   "url": "/roofing-burleson-tx/",
+   "name": "Burleson",
+   "city": "Burleson",
+   "county": "Johnson and Tarrant",
+   "summary": ""
+  },
+  {
+   "slug": "carrollton",
+   "url": "/carrollton-roofing/",
+   "name": "Carrollton",
+   "city": "Carrollton",
+   "county": "Dallas, Denton and Collin",
+   "summary": ""
+  },
+  {
+   "slug": "cedar-hill",
+   "url": "/roofing-cedar-hill-tx/",
+   "name": "Cedar Hill",
+   "city": "Cedar Hill",
+   "county": "Dallas and Ellis",
+   "summary": ""
+  },
+  {
+   "slug": "celina",
+   "url": "/roofing-celina-tx/",
+   "name": "Celina",
+   "city": "Celina",
+   "county": "Collin and Denton",
+   "summary": ""
+  },
+  {
+   "slug": "cleburne",
+   "url": "/roofing-cleburne-tx/",
+   "name": "Cleburne",
+   "city": "Cleburne",
+   "county": "Johnson",
+   "summary": ""
+  },
+  {
+   "slug": "colleyville",
+   "url": "/roofing-colleyville-tx/",
+   "name": "Colleyville",
+   "city": "Colleyville",
+   "county": "Tarrant",
+   "summary": ""
+  },
+  {
+   "slug": "coppell",
+   "url": "/roofing-coppell-tx/",
+   "name": "Coppell",
+   "city": "Coppell",
+   "county": "Dallas and Denton",
+   "summary": ""
+  },
+  {
+   "slug": "corinth",
+   "url": "/roofing-corinth-tx/",
+   "name": "Corinth",
+   "city": "Corinth",
+   "county": "Denton",
+   "summary": ""
+  },
+  {
+   "slug": "crowley",
+   "url": "/roofing-crowley-tx/",
+   "name": "Crowley",
+   "city": "Crowley",
+   "county": "Tarrant and Johnson",
+   "summary": ""
+  },
+  {
+   "slug": "desoto",
+   "url": "/roofing-desoto-tx/",
+   "name": "DeSoto",
+   "city": "DeSoto",
+   "county": "Dallas",
+   "summary": ""
+  },
+  {
+   "slug": "denton",
+   "url": "/roofing-denton-tx/",
+   "name": "Denton",
+   "city": "Denton",
+   "county": "Denton",
+   "summary": ""
+  },
+  {
+   "slug": "duncanville",
+   "url": "/roofing-duncanville-tx/",
+   "name": "Duncanville",
+   "city": "Duncanville",
+   "county": "Dallas",
+   "summary": ""
+  },
+  {
+   "slug": "ennis",
+   "url": "/roofing-ennis-tx/",
+   "name": "Ennis",
+   "city": "Ennis",
+   "county": "Ellis",
+   "summary": ""
+  },
+  {
+   "slug": "euless",
+   "url": "/roofing-euless-tx/",
+   "name": "Euless",
+   "city": "Euless",
+   "county": "Tarrant",
+   "summary": ""
+  },
+  {
+   "slug": "farmers-branch",
+   "url": "/roofing-farmers-branch-tx/",
+   "name": "Farmers Branch",
+   "city": "Farmers Branch",
+   "county": "Dallas",
+   "summary": ""
+  },
+  {
+   "slug": "flower-mound",
+   "url": "/roofing-company-flower-mound-tx/",
+   "name": "Flower Mound",
+   "city": "Flower Mound",
+   "county": "Denton and Tarrant",
+   "summary": ""
+  },
+  {
+   "slug": "forney",
+   "url": "/roofing-forney-tx/",
+   "name": "Forney",
+   "city": "Forney",
+   "county": "Kaufman",
+   "summary": ""
+  },
+  {
+   "slug": "fort-worth",
+   "url": "/roofing-companies-fort-worth-tx/",
+   "name": "Fort Worth",
+   "city": "Fort Worth",
+   "county": "Tarrant, Denton, Parker, Johnson and Wise",
+   "summary": ""
+  },
+  {
+   "slug": "frisco",
+   "url": "/roofing-company-frisco-tx/",
+   "name": "Frisco",
+   "city": "Frisco",
+   "county": "Collin and Denton",
+   "summary": ""
+  },
+  {
+   "slug": "garland",
+   "url": "/roofing-garland-tx/",
+   "name": "Garland",
+   "city": "Garland",
+   "county": "Dallas, Collin and Rockwall",
+   "summary": ""
+  },
+  {
+   "slug": "granbury",
+   "url": "/roofing-granbury-tx/",
+   "name": "Granbury",
+   "city": "Granbury",
+   "county": "Hood",
+   "summary": ""
+  },
+  {
+   "slug": "grand-prairie",
+   "url": "/roofing-grand-prairie-tx/",
+   "name": "Grand Prairie",
+   "city": "Grand Prairie",
+   "county": "Dallas, Tarrant and Ellis",
+   "summary": ""
+  },
+  {
+   "slug": "grapevine",
+   "url": "/roofing-grapevine-tx/",
+   "name": "Grapevine",
+   "city": "Grapevine",
+   "county": "Tarrant, Dallas and Denton",
+   "summary": ""
+  },
+  {
+   "slug": "haltom-city",
+   "url": "/roofing-haltom-city-tx/",
+   "name": "Haltom City",
+   "city": "Haltom City",
+   "county": "Tarrant",
+   "summary": ""
+  },
+  {
+   "slug": "haslet",
+   "url": "/roofing-haslet-tx/",
+   "name": "Haslet",
+   "city": "Haslet",
+   "county": "Tarrant and Denton",
+   "summary": ""
+  },
+  {
+   "slug": "highland-village",
+   "url": "/roofing-highland-village-tx/",
+   "name": "Highland Village",
+   "city": "Highland Village",
+   "county": "Denton",
+   "summary": ""
+  },
+  {
+   "slug": "hurst",
+   "url": "/roofing-hurst-tx/",
+   "name": "Hurst",
+   "city": "Hurst",
+   "county": "Tarrant",
+   "summary": ""
+  },
+  {
+   "slug": "irving",
+   "url": "/roofing-company-irving-tx/",
+   "name": "Irving",
+   "city": "Irving",
+   "county": "Dallas",
+   "summary": ""
+  },
+  {
+   "slug": "kaufman",
+   "url": "/roofing-kaufman-tx/",
+   "name": "Kaufman",
+   "city": "Kaufman",
+   "county": "Kaufman",
+   "summary": ""
+  },
+  {
+   "slug": "keller",
+   "url": "/roofing-keller-tx/",
+   "name": "Keller",
+   "city": "Keller",
+   "county": "Tarrant",
+   "summary": ""
+  },
+  {
+   "slug": "lancaster",
+   "url": "/roofing-lancaster-tx/",
+   "name": "Lancaster",
+   "city": "Lancaster",
+   "county": "Dallas",
+   "summary": ""
+  },
+  {
+   "slug": "lewisville",
+   "url": "/roofing-company-lewisville-tx/",
+   "name": "Lewisville",
+   "city": "Lewisville",
+   "county": "Denton and Dallas",
+   "summary": ""
+  },
+  {
+   "slug": "little-elm",
+   "url": "/roofing-little-elm-tx/",
+   "name": "Little Elm",
+   "city": "Little Elm",
+   "county": "Denton",
+   "summary": ""
+  },
+  {
+   "slug": "mansfield",
+   "url": "/roofing-mansfield-tx/",
+   "name": "Mansfield",
+   "city": "Mansfield",
+   "county": "Tarrant, Johnson and Ellis",
+   "summary": ""
+  },
+  {
+   "slug": "mckinney",
+   "url": "/roofing-companies-mckinney-tx/",
+   "name": "McKinney",
+   "city": "McKinney",
+   "county": "Collin",
+   "summary": ""
+  },
+  {
+   "slug": "melissa",
+   "url": "/roofing-melissa-tx/",
+   "name": "Melissa",
+   "city": "Melissa",
+   "county": "Collin",
+   "summary": ""
+  },
+  {
+   "slug": "mesquite",
+   "url": "/roofing-company-mesquite-tx/",
+   "name": "Mesquite",
+   "city": "Mesquite",
+   "county": "Dallas and Kaufman",
+   "summary": ""
+  },
+  {
+   "slug": "midlothian",
+   "url": "/roofing-midlothian-tx/",
+   "name": "Midlothian",
+   "city": "Midlothian",
+   "county": "Ellis",
+   "summary": ""
+  },
+  {
+   "slug": "murphy",
+   "url": "/roofing-murphy-tx/",
+   "name": "Murphy",
+   "city": "Murphy",
+   "county": "Collin",
+   "summary": ""
+  },
+  {
+   "slug": "north-richland-hills",
+   "url": "/roofing-north-richland-hills-tx/",
+   "name": "North Richland Hills",
+   "city": "North Richland Hills",
+   "county": "Tarrant",
+   "summary": ""
+  },
+  {
+   "slug": "plano",
+   "url": "/roofing-contractors-plano-tx/",
+   "name": "Plano",
+   "city": "Plano",
+   "county": "Collin and Denton",
+   "summary": ""
+  },
+  {
+   "slug": "princeton",
+   "url": "/roofing-princeton-tx/",
+   "name": "Princeton",
+   "city": "Princeton",
+   "county": "Collin",
+   "summary": ""
+  },
+  {
+   "slug": "prosper",
+   "url": "/roofing-prosper-tx/",
+   "name": "Prosper",
+   "city": "Prosper",
+   "county": "Collin and Denton",
+   "summary": ""
+  },
+  {
+   "slug": "red-oak",
+   "url": "/roofing-red-oak-tx/",
+   "name": "Red Oak",
+   "city": "Red Oak",
+   "county": "Ellis",
+   "summary": ""
+  },
+  {
+   "slug": "richardson",
+   "url": "/roofing-company-richardson-tx/",
+   "name": "Richardson",
+   "city": "Richardson",
+   "county": "Dallas and Collin",
+   "summary": ""
+  },
+  {
+   "slug": "roanoke",
+   "url": "/roofing-roanoke-tx/",
+   "name": "Roanoke",
+   "city": "Roanoke",
+   "county": "Denton",
+   "summary": ""
+  },
+  {
+   "slug": "rockwall",
+   "url": "/roofing-rockwall-tx/",
+   "name": "Rockwall",
+   "city": "Rockwall",
+   "county": "Rockwall",
+   "summary": ""
+  },
+  {
+   "slug": "rowlett",
+   "url": "/roofing-rowlett-tx/",
+   "name": "Rowlett",
+   "city": "Rowlett",
+   "county": "Dallas and Rockwall",
+   "summary": ""
+  },
+  {
+   "slug": "sachse",
+   "url": "/roofing-sachse-tx/",
+   "name": "Sachse",
+   "city": "Sachse",
+   "county": "Dallas and Collin",
+   "summary": ""
+  },
+  {
+   "slug": "saginaw",
+   "url": "/roofing-saginaw-tx/",
+   "name": "Saginaw",
+   "city": "Saginaw",
+   "county": "Tarrant",
+   "summary": ""
+  },
+  {
+   "slug": "seagoville",
+   "url": "/roofing-seagoville-tx/",
+   "name": "Seagoville",
+   "city": "Seagoville",
+   "county": "Dallas and Kaufman",
+   "summary": ""
+  },
+  {
+   "slug": "southlake",
+   "url": "/roofing-southlake-tx/",
+   "name": "Southlake",
+   "city": "Southlake",
+   "county": "Tarrant and Denton",
+   "summary": ""
+  },
+  {
+   "slug": "sunnyvale",
+   "url": "/roofing-sunnyvale-tx/",
+   "name": "Sunnyvale",
+   "city": "Sunnyvale",
+   "county": "Dallas",
+   "summary": ""
+  },
+  {
+   "slug": "the-colony",
+   "url": "/roofing-the-colony-tx/",
+   "name": "The Colony",
+   "city": "The Colony",
+   "county": "Denton",
+   "summary": ""
+  },
+  {
+   "slug": "trophy-club",
+   "url": "/roofing-trophy-club-tx/",
+   "name": "Trophy Club",
+   "city": "Trophy Club",
+   "county": "Denton and Tarrant",
+   "summary": ""
+  },
+  {
+   "slug": "watauga",
+   "url": "/roofing-watauga-tx/",
+   "name": "Watauga",
+   "city": "Watauga",
+   "county": "Tarrant",
+   "summary": ""
+  },
+  {
+   "slug": "waxahachie",
+   "url": "/roofing-waxahachie-tx/",
+   "name": "Waxahachie",
+   "city": "Waxahachie",
+   "county": "Ellis",
+   "summary": ""
+  },
+  {
+   "slug": "weatherford",
+   "url": "/roofing-weatherford-tx/",
+   "name": "Weatherford",
+   "city": "Weatherford",
+   "county": "Parker",
+   "summary": ""
+  },
+  {
+   "slug": "wylie",
+   "url": "/roofing-wylie-tx/",
+   "name": "Wylie",
+   "city": "Wylie",
+   "county": "Collin, Dallas and Rockwall",
+   "summary": ""
+  }
+ ]
+}

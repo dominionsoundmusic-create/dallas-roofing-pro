@@ -1,0 +1,73 @@
+{
+ "_note": "Oct 13 2026, Maurice's reuse rule. Each key is a NEW image that is still wanted from Artistly (docs/image-list.md). Until the file is saved in src/static/images/, build.py serves a crop of `from` (an existing photo in docs/photos.json) under the new name, with that photo's alt text. When the new image arrives, keep the entry (the build then uses the real file and `alt` is the alt to put in the page source) or delete it.",
+ "dfw-home-new-architectural-shingle-roof-hero.jpg": {
+  "from": "neighborhood-roofs-morning-hero.jpg",
+  "alt": "Two-story brick home in a Dallas-Fort Worth suburb with a new architectural shingle roof under a blue sky",
+  "prompt": "A two-story red brick and stone home in a Dallas-Fort Worth suburb with a new charcoal architectural shingle roof, a young live oak and a trimmed lawn, flat North Texas land, bright midday sun and a blue sky with a few white clouds."
+ },
+ "dfw-suburb-brick-two-story-street-hero.jpg": {
+  "from": "two-story-brick-home-architectural-shingles-hero.jpg",
+  "alt": "Street of two-story brick homes with shingle roofs in a North Texas suburb",
+  "prompt": "A gently curving street of two-story brick and stone homes with gray and brown asphalt shingle roofs in a North Texas suburb, young cedar elms and live oaks along the sidewalk, wide driveways, bright afternoon light, blue sky."
+ },
+ "dfw-older-ranch-homes-pecan-trees-hero.jpg": {
+  "from": "brick-ranch-home-oak-roof-hero.jpg",
+  "alt": "1960s one-story brick ranch homes with shingle roofs under mature pecan and oak trees on a North Texas street",
+  "prompt": "A quiet older North Texas street of 1960s one-story brick ranch homes with low-pitched asphalt shingle roofs, tall mature pecan and post oak trees shading the lawns, a car in one driveway, soft morning light."
+ },
+ "dfw-new-subdivision-rooftops-hero.jpg": {
+  "from": "suburb-rooftops-aerial-pond-hero.jpg",
+  "alt": "New subdivision of two-story homes with fresh shingle roofs on open North Texas prairie",
+  "prompt": "Low aerial view of a new master-planned subdivision north of Dallas, rows of new two-story homes with fresh gray shingle roofs, small young trees, open prairie and farm fields at the edge of the neighborhood, bright clear day."
+ },
+ "north-texas-supercell-over-suburb-hero.jpg": {
+  "from": "hail-on-lawn-after-storm-hero.jpg",
+  "alt": "Dark spring thunderstorm building over shingle roofs in a North Texas neighborhood",
+  "prompt": "A towering dark green-gray spring supercell thunderstorm approaching a North Texas suburban neighborhood of brick homes with shingle roofs, sunlight still on the houses in the foreground, dramatic sky, no lightning strikes on homes."
+ },
+ "dfw-lakeside-homes-shingle-roofs-hero.jpg": {
+  "from": "two-story-home-near-pond-hero.jpg",
+  "alt": "Homes with shingle roofs along the shore of a North Texas lake",
+  "prompt": "Two-story homes with brown and gray shingle roofs set back from the shore of a wide North Texas reservoir, a grassy slope and a few live oaks, calm water, bright late afternoon sun, blue sky."
+ },
+ "north-texas-small-town-historic-homes-hero.jpg": {
+  "from": "older-frame-home-shingle-roof-hero.jpg",
+  "alt": "Older frame houses with porches and shingle roofs on a tree-lined street in a North Texas county-seat town",
+  "prompt": "A tree-lined residential street in an older North Texas county-seat town, early 1900s one and two-story wood frame houses with deep front porches and asphalt shingle roofs, large pecan trees, brick sidewalk, warm morning light."
+ },
+ "north-texas-ranch-land-home-metal-roof-hero.jpg": {
+  "from": "country-home-red-metal-roof-pasture-hero.jpg",
+  "alt": "Ranch-style home with a standing seam metal roof on rolling acreage west of Fort Worth",
+  "prompt": "A single-story stone ranch-style home with a dark standing seam metal roof on rolling acreage with scattered live oaks and cedar trees, a pipe fence and a pasture, west of Fort Worth, bright clear day with a few clouds."
+ },
+ "dfw-wind-lifted-shingles-ridge.jpg": {
+  "from": "roof-03-card.jpg",
+  "alt": "Wind-lifted and missing shingles near the ridge of a suburban roof after a North Texas windstorm",
+  "prompt": "Close view from the ground of a suburban asphalt shingle roof with several shingles torn away and lifted near the ridge after a windstorm, a few shingles on the lawn below, bright sky."
+ },
+ "dfw-storm-damaged-roofs-tarps-street-hero.jpg": {
+  "from": "blue-emergency-tarp-on-brick-home.jpg",
+  "alt": "Blue tarps on several roofs along a North Texas street after a severe storm",
+  "prompt": "A North Texas residential street after a severe spring storm, several brick homes with blue tarps on damaged sections of their shingle roofs, branches piled at the curb, clearing sky, no people."
+ },
+ "north-texas-ice-on-roof-eaves.jpg": {
+  "from": "dented-gutter-hail-marks.jpg",
+  "alt": "Ice coating the shingle roof edge and gutter of a brick home during a North Texas winter storm",
+  "prompt": "Close view of a brick home's shingle roof edge and gutter coated in clear ice and short icicles during a North Texas winter ice storm, gray sky, frozen shrubs below."
+ },
+ "dfw-warehouse-tpo-roof-hero.jpg": {
+  "from": "roof-06-hero.jpg",
+  "alt": "Large warehouse with a white TPO roof and rooftop units in a North Texas business park",
+  "prompt": "Low aerial view of a large tilt-wall warehouse with a bright white TPO membrane roof, rooftop units and roof drains in a North Texas business park, flat land, clear blue sky."
+ },
+ "dfw-roof-inspection-two-story-home-hero.jpg": {
+  "from": "homeowner-clipboard-checking-roofer-hero.jpg",
+  "alt": "Roofer on a ladder at the eave of a two-story brick home inspecting the shingle roof",
+  "prompt": "A roofer in a plain work shirt, seen from behind, on an extension ladder at the eave of a two-story brick home in a North Texas suburb, looking across the shingle roof, a homeowner watching from the lawn, bright day."
+ },
+ "golf-ball-hail-on-shingles-closeup.jpg": {
+  "from": "dallas-roof-hail-hero.jpg",
+  "alt": "Golf-ball-size hailstones lying on dark asphalt shingles after a storm",
+  "prompt": "Close view of golf-ball-size hailstones lying on dark gray asphalt shingles right after a storm, a few dark bruise marks visible, wet surface, bright light breaking through clouds."
+ }
+}
