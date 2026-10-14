@@ -35,3 +35,6 @@ Target: roofing duncanville tx (20); supporting duncanville roofing (10). Page: 
 - Fairmeadows subdivision claim (one source): not used. ZIP housing-age share (commercial site): not used.
 - Current roof permit fee and registration fee: not confirmed.
 - Any named tornado or hailstorm damage in Duncanville: not verified. HOA rules: not researched.
+
+## Fact-check fc11 (Oct 14 2026)
+- Marker attribution for growth removed; AADCP (Nike) at Duncanville AFS from 1959 per https://en.wikipedia.org/wiki/Duncanville_Air_Force_Station

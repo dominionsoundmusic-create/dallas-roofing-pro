@@ -43,3 +43,6 @@ Target: roofing lancaster tx (10). Page: /roofing-lancaster-tx/
 - Injury counts for 2012 (ten injured per a police officer): not used.
 - Housing age and roof types, named subdivisions: not researched/verified, left out.
 - HOA rules, hail events specific to Lancaster: not found.
+
+## Fact-check fc11 (Oct 14 2026)
+- 1994 tornado: F4, about 6 miles, up to half a mile wide (Wikipedia outbreak article); newspapers.com AP source replaced. 2012: NWS 7.1 miles is the surveyed Lancaster/Dallas damage track (Wikipedia gives 13.7 miles from Oak Leaf); page wording adjusted.

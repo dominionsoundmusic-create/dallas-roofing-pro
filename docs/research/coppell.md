@@ -14,3 +14,6 @@
 - Neighborhoods (Old Town Coppell, Riverchase): not verified, left out.
 - Other Coppell storm events: none verified.
 - Homeowner's $2,500 deductible example: personal anecdote, left out.
+
+## Fact-check fc11 (Oct 14 2026)
+- Roof age corrected to "about three years old" (NBC quote). ICT figures are 20,000 homes and 25,000 vehicles damaged, not claims. 1981/1984 TSHA figures dropped; census 3,826 (1980). Registration confirmed on https://www.coppelltx.gov/207/Contractor-Information.

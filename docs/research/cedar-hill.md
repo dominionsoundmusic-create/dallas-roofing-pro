@@ -36,3 +36,6 @@ Target: roofing cedar hill tx (30). Page: /roofing-cedar-hill-tx/
 - County seat move after 1856: not used. Joe Pool Lake acreage: not used.
 - Any claim that hilltop homes get more wind: not sourced, so framed only as a question to ask.
 - Neighborhood names, housing age, HOA rules, modern hail events: not verified.
+
+## Fact-check fc11 (Oct 14 2026)
+- Wikipedia 791 ft dropped; city nature page (ID 2905) gives 880 ft, highest point in Dallas County. 1856 tornado: April 29, at least nine killed (nine or eleven debated); paper was the Dallas Herald.

@@ -16,3 +16,6 @@
 - Population 2020: not seen in results; left out.
 - Neighborhood names beyond the original Fox and Jacobs development; lakeside wind exposure: left out.
 - Drip edge requirement: not stated in results; left out.
+
+## Fact-check fc11 (Oct 14 2026)
+- EF-0 tornado date confirmed: March 8, 2016 (NWS confirmed March 9). KERA: https://www.keranews.org/news/2016-03-09/latest-ef-0-tornado-confirmed-in-benbrook-bringing-total-to-five-tornadoes-in-24-hours

@@ -17,3 +17,6 @@
 - Electric provider for Highland Village: unverified; generic wording.
 - Neighborhood names, HOA rules, housing age beyond population growth figures: left out.
 - Current registration fee: form undated; page tells reader to confirm.
+
+## Fact-check fc11 (Oct 14 2026)
+- StormerSite replaced by SPC preliminary reports for June 11, 2023 (2 in., 1.75 in., 2.75 to 3 in. in Highland Village): https://www.spc.noaa.gov/climo/reports/230611_rpts.html
