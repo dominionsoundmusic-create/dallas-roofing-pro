@@ -1,0 +1,84 @@
+---
+type: about
+title: "About DFW Expert Roofers: A Free Referral Line, Not a Roofer"
+description: "About DFW Expert Roofers: who runs the free Dallas-Fort Worth roofing line, why it exists, how its guides are researched, and the limits of what it does."
+h1: "About DFW Expert Roofers"
+crumb: "About"
+hero:
+  image: brick-homes-shingle-roofs-aerial-hero.jpg
+  alt: "Brick homes with hip shingle roofs and mature shade trees seen from above on a sunny day"
+  lead: "A free phone line and a set of plain-spoken roofing guides for Dallas-Fort Worth homeowners. No crews, no trucks, no sales pitch."
+  secondary_label: "How a call works"
+  secondary_href: "/how-it-works/"
+faq_title: "Questions about who runs the line"
+faqs:
+  - q: "Who owns DFW Expert Roofers?"
+    a: "<p>DFW Expert Roofers is a d/b/a of Dominion Digital Group. It runs this website and the free phone line. It is not a roofing contractor and does not employ roofers. The roofing companies callers are connected with are independent businesses. The <a href=\"/terms.html\">terms</a> spell out that relationship.</p>"
+  - q: "Why does the site not show reviews, ratings or awards?"
+    a: "<p>Because the line does no roofing work, it has nothing of its own to review, and it does not publish ratings of the independent companies it connects you with. Ask any roofer for references and recent addresses near you, and look up its reviews on sites you trust before you sign. The <a href=\"/do-roofers-need-a-license-in-texas/\">roofer checking guide</a> explains what else to verify.</p>"
+  - q: "Where does the information on these pages come from?"
+    a: "<p>From public sources: the National Weather Service in Fort Worth, city building and permit departments, the Texas Department of Insurance, Texas statutes and reliable local news. Each page lists its sources at the bottom. If a fact could not be verified, it was left out. Rules change, so confirm anything important with your city or insurer.</p>"
+  - q: "Did the site used to have a different name?"
+    a: "<p>The website at this address has been renamed DFW Expert Roofers. The phone number and the purpose are the same: a free call that connects Dallas-Fort Worth homeowners and businesses with a local roofing company. Old links still lead to the matching new pages.</p>"
+---
+{% block content %}
+<section class="prose">
+  <div class="split">
+    <div>
+      <h2>What this is</h2>
+      <p class="lead">DFW Expert Roofers is a phone number and a website. The number is answered at every hour by an automated assistant, which connects callers across Dallas-Fort Worth with an independent roofing company that is locally owned and works in their area. The website explains roofing in plain terms so callers know what to ask once a roofer arrives.</p>
+      <p>The line is a d/b/a of Dominion Digital Group. It has no crews, sells no materials, and does not inspect, quote or repair roofs. It also does not file or negotiate insurance claims; in Texas, only a licensed public adjuster may negotiate a claim on a homeowner's behalf, and a contractor may not act as one on a property it works on.</p>
+    </div>
+    {{ img('neighborhood-roofs-morning-hero.jpg', 'Row of two-story suburban homes with shingle roofs and shade trees along a street in early morning light', 1920, 1080) }}
+  </div>
+</section>
+
+<section class="prose">
+  <h2>Why it exists</h2>
+  <p>Roofing in North Texas is driven by weather. When a hailstorm crosses Collin County or a line of storms flattens fences in Tarrant County, thousands of homeowners need a roofer in the same week, and the yard signs and door knockers arrive fast. Some of those crews are local and careful. Some are gone before the first leak. Texas has no state roofing license to sort them out.</p>
+  <p>The line offers a simpler first step: one free call that reaches a company based in the area, plus guides that help you check that company, understand your insurance policy, and read an estimate.</p>
+  <div class="grid-3">
+    <div class="panel">
+      <h3>Free to call</h3>
+      <p>No charge to call or to be connected, and no bill from the line, ever. Roofing companies may pay a referral fee.</p>
+    </div>
+    <div class="panel">
+      <h3>Answered around the clock</h3>
+      <p>The assistant picks up nights, weekends and holidays, which matters in a region where many storms arrive in the evening.</p>
+    </div>
+    <div class="panel">
+      <h3>Local first</h3>
+      <p>Calls go to independent, locally owned roofing companies that work in Dallas-Fort Worth, not to a national call center.</p>
+    </div>
+  </div>
+</section>
+
+<section class="band band--tint">
+  <div class="wide">
+    <h2>How the guides and town pages are written</h2>
+    <p class="section-intro">Every page on this site was researched and written for its own topic. The 67 town pages each draw on that town's own records: its permit office, the storms that hit it, and the neighborhoods people there know.</p>
+    <ul class="checks">
+      <li><strong>Sourced.</strong> Facts come from the National Weather Service, city websites, the Texas Department of Insurance, Texas statutes and established news outlets, and each page lists them.</li>
+      <li><strong>Left out when unverified.</strong> If a claim could not be confirmed, it is not on the page.</li>
+      <li><strong>No invented trust signals.</strong> No made-up reviews, licenses, awards, warranties of service or arrival times.</li>
+      <li><strong>Safety first.</strong> No page tells you to climb on a roof or do roof work yourself.</li>
+    </ul>
+  </div>
+</section>
+
+<section class="prose">
+  <h2>What the line will not claim</h2>
+  <div class="split">
+    {{ img('roofer-ladder-at-gutter.jpg', 'Roofer standing at the foot of an aluminum ladder set against the gutter of a brick home', 1200, 800) }}
+    <div>
+      <p>You will not find promises here about how fast a roofer will show up, about a company holding a manufacturer credential, or about what your insurer will decide. Those depend on the roofing company, the shingle maker and your insurance company, and you should hear them from each of them, in writing.</p>
+      <p>What you will find is a straight answer about how the call works, and the questions worth asking before you sign anything.</p>
+    </div>
+  </div>
+  {{ m.disclosure() }}
+  {{ m.sources([
+    {'label': 'Texas Department of Insurance: Roofing and insurance, know the law', 'url': 'https://www.tdi.texas.gov/Consumer/storms/roofing-and-insurance-know-the-law.html'},
+    {'label': 'Texas Legislature: HB 3344 (2025) committee bill analysis, roofing contractor licensing', 'url': 'https://capitol.texas.gov/tlodocs/89R/analysis/html/HB03344H.htm'},
+  ]) }}
+</section>
+{% endblock %}

@@ -1,0 +1,44 @@
+---
+type: page
+title: "Your Hail Claim Checklist Is Ready | DFW Expert Roofers"
+description: "Open or save the free two-page Dallas-Fort Worth hail and storm roof claim checklist (PDF), then keep it with your homeowners policy for the next storm."
+h1: "Your Checklist Is Ready"
+crumb: "Checklist ready"
+noindex: true
+hero:
+  size: short
+  image: dallas-roof-hail-hero.jpg
+  alt: "Hailstones resting on dark asphalt shingles beside a roof vent under a blue sky"
+  lead: "Open the PDF below, save it to your phone and print a copy to keep with your homeowners policy."
+  secondary_label: "Open the PDF"
+  secondary_href: "/files/dallas-hail-storm-claim-checklist.pdf"
+cta: false
+faqs:
+  - q: "The PDF did not open. What now?"
+    a: "<p>Use the button on this page again, or right-click it and choose to save the link. The file is a standard PDF that opens in any browser or phone. You can come back to this page any time from the <a href=\"/hail-claim-checklist/\">checklist page</a>.</p>"
+  - q: "I gave my phone number. Who will call?"
+    a: "<p>An independent roofing company that works in your ZIP code may call about looking at your roof. It is not the line calling, and you are under no obligation. Ask whether it charges to inspect, and ask for proof of insurance before anyone goes up on the roof. See <a href=\"/how-it-works/\">how the line works</a>.</p>"
+  - q: "Where can I learn more about hail claims in Texas?"
+    a: "<p>The <a href=\"/roof-insurance-claim-texas/\">roof insurance claim guide</a> explains percentage deductibles, actual cash value versus replacement cost, depreciation holdbacks and what Texas law lets a roofer do and not do during a claim.</p>"
+---
+{% block content %}
+<section class="prose">
+  <div class="split">
+    <div>
+      <h2>Download the checklist</h2>
+      <p>Your two-page Hail and Storm Damage Roof Claim Checklist is ready.</p>
+      <p><a class="btn btn--orange" href="{{ site.business.checklist_pdf }}">Open the checklist (PDF)</a></p>
+      <p>Print one copy for the kitchen drawer and keep one on your phone. After a storm, start with section 1 and work down the list. If the roof needs a look, call <a href="tel:{{ site.business.phone_tel }}">{{ site.business.phone_display }}</a> at any hour.</p>
+    </div>
+    {{ img('roofing-contract-kitchen-table.jpg', 'Homeowner reading a printed roofing contract at a kitchen table beside a coffee mug', 1200, 800) }}
+  </div>
+  <h2>Two more pages worth a look</h2>
+  <div class="split">
+    {{ img('attic-roof-decking-flashlight-inspection.jpg', 'Person in an attic shining a flashlight along the roof rafters and decking', 1200, 800) }}
+    <div>
+      <p><a href="/what-to-do-after-storm-damage-to-roof/">What to do after storm damage to your roof</a> covers the first day in more detail, and <a href="/do-roofers-need-a-license-in-texas/">how to check a roofer in Texas</a> helps you compare the companies that call or knock.</p>
+    </div>
+  </div>
+  {{ m.disclosure() }}
+</section>
+{% endblock %}

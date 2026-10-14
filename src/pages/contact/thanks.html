@@ -1,0 +1,44 @@
+---
+type: page
+title: "Request Received | DFW Expert Roofers"
+description: "Your roof request reached the DFW line and is going to a local roofing company for a call back. If water starts coming in, call the free line at any hour."
+h1: "Thanks, Your Request Was Sent"
+crumb: "Request sent"
+noindex: true
+hero:
+  size: short
+  image: roof-05-hero.jpg
+  alt: "Roofer sealing around a roof vent pipe with a caulk gun on an asphalt shingle roof at sunrise"
+  lead: "Your details are on their way to an independent roofing company that works in your part of Dallas-Fort Worth, and it will phone you. If things get worse before it does, call the line."
+  secondary_label: "Return to the home page"
+  secondary_href: "/"
+cta: false
+faqs:
+  - q: "How soon will a roofer call me back?"
+    a: "<p>That is up to the roofing company and the weather. After a big hailstorm, roofers across DFW are flooded with calls, so it can take longer. If you have not heard back and the problem is spreading, call the line again; it answers at any hour. Leaks that cannot wait are covered on the <a href=\"/emergency-roof-repair/\">emergency roof repair page</a>.</p>"
+  - q: "What can I do safely while I wait?"
+    a: "<p>Stay off the roof and keep the ladder in the garage. Indoors, move furniture and electronics out of the way of any drip, set out a bucket and towels, and keep people out of a room where the ceiling sags. Take dated photos from the ground and inside. If a storm did the damage, call your insurer to open a claim. The <a href=\"/what-to-do-after-storm-damage-to-roof/\">storm damage steps</a> go further.</p>"
+  - q: "What should I ask the roofer when it calls?"
+    a: "<p>Ask whether it charges to inspect, when it can come, who will be on the roof, and whether it will send proof of liability insurance. Before you sign anything, ask for a written estimate with the scope, materials and warranty, and who pulls the city permit. The guide on <a href=\"/do-roofers-need-a-license-in-texas/\">checking a roofer in Texas</a> has the full list.</p>"
+---
+{% block content %}
+<section class="prose">
+  <div class="split">
+    <div>
+      <h2>What happens next</h2>
+      <p>The roofing company that receives your request reads your note, then phones the number you gave. It will want to know a little more about the roof and set a time to see it. The visit, the estimate and any work are between you and that company; DFW Expert Roofers is only the line that connected you.</p>
+      <p>Keep your phone nearby, and answer calls from numbers you do not recognize for the next day or so, since the roofer may call from a business line.</p>
+    </div>
+    {{ img('ceiling-leak-bucket-living-room.jpg', 'Water stain on a living room ceiling with a bucket on the floor below and furniture covered in plastic', 1200, 800) }}
+  </div>
+  <h2>While you wait</h2>
+  <div class="split">
+    {{ img('homeowner-photographing-roof-for-claim-hero.jpg', 'Homeowner standing on the front lawn taking photos of the roof of a two-story brick home', 1920, 1080) }}
+    <div>
+      <p>Write down the date of the storm if one caused the damage, and photograph the roof from the yard and any stains from inside. If you plan to file a claim, look up your policy number and your wind and hail deductible now. The free <a href="/hail-claim-checklist/">hail claim checklist</a> walks through each step.</p>
+      <p><a class="btn btn--orange" href="tel:{{ site.business.phone_tel }}">{{ site.cta.primary_label }}</a></p>
+    </div>
+  </div>
+  {{ m.disclosure() }}
+</section>
+{% endblock %}

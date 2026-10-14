@@ -1,0 +1,23 @@
+---
+type: error
+title: "Page Not Found | DFW Expert Roofers"
+description: "That page is not on dfwexpertroofers.com. Call the free Dallas-Fort Worth roofing line at any hour, or choose one of the roofing pages listed below."
+h1: "We Could Not Find That Page"
+noindex: true
+lead: "The link may be outdated or mistyped. The phone line still answers at any hour."
+cta: false
+---
+{% block content %}
+<section class="prose">
+  <p>If water is coming through a ceiling right now, skip the browsing and call <a href="tel:{{ site.business.phone_tel }}">{{ site.business.phone_display }}</a>. The line puts you through to an independent roofing company in Dallas-Fort Worth. Otherwise, one of these pages probably has what you were looking for.</p>
+  <h2>Roofing services</h2>
+  <ul class="pill-list">
+  {% for s in site.services %}<li><a href="{{ s.url }}">{{ s.name }}</a></li>{% endfor %}
+  </ul>
+  <h2>Guides</h2>
+  <ul class="pill-list">
+  {% for g in site.guides %}<li><a href="{{ g.url }}">{{ g.name }}</a></li>{% endfor %}
+  </ul>
+  <p>You can also start from the <a href="/">home page</a>, browse <a href="/service-areas/">every DFW town</a>, or <a href="/contact/">send a request</a>.</p>
+</section>
+{% endblock %}

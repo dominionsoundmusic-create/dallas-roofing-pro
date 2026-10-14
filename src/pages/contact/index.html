@@ -1,0 +1,85 @@
+---
+type: contact
+title: "Contact DFW Expert Roofers: Call Free or Send a Request"
+description: "Reach DFW Expert Roofers: call the free line any hour, or send a short form and an independent Dallas-Fort Worth roofing company will call you back about your roof."
+h1: "Contact the Free DFW Roofing Line"
+crumb: "Contact"
+hero:
+  size: short
+  image: phone-and-notes-on-desk-hero.jpg
+  alt: "Phone, notepad and coffee cup on a desk by a window looking out at a neighbor's house"
+  lead: "Calling is the quickest way: the assistant answers every hour of the day. If you would rather type, the form below goes to a roofing company that works in your part of DFW, and it calls you back."
+  secondary_label: "Send the form"
+  secondary_href: "#request"
+cta_title: "Rather talk it through? Call now"
+faqs:
+  - q: "Is it better to call or to send the form?"
+    a: "<p>Call if water is coming in, if a limb is on the roof, or if you want to reach a roofer as soon as possible. The assistant transfers you while you are still on the line. The form suits a problem that can wait a day or two, such as an old roof you want looked at or a second opinion on a bid. Both reach an independent roofing company in your area. See <a href=\"/how-it-works/\">how the line works</a>.</p>"
+  - q: "Who receives what I type in the form?"
+    a: "<p>Your name, phone number, town, the type of help you picked and your note are passed to an independent roofing company that takes calls in your area, so it can phone you. The line does not sell your details. The <a href=\"/privacy-policy.html\">privacy policy</a> explains what is kept and how to ask for it to be removed.</p>"
+  - q: "Is there an email address or an office I can visit?"
+    a: "<p>No. DFW Expert Roofers is a phone line and website with no walk-in office and no public email. The phone and this form are the two ways to reach it. Any visit to your home is made by the roofing company you are connected with, and it should tell you who is coming and when.</p>"
+  - q: "Can I send photos of the damage?"
+    a: "<p>Not through this form. Keep your photos on your phone, dated, and show them to the roofer when it calls or visits, and to your insurance adjuster if you file a claim. Take them from the ground and from inside the house only; never climb up to get a better angle. The <a href=\"/hail-claim-checklist/\">hail claim checklist</a> lists which shots help most.</p>"
+---
+{% block content %}
+<section class="prose" id="request">
+  <div class="split">
+    <div>
+      <h2>Send a roof request</h2>
+      <p>Fill in the four required fields and add a note if it helps. A roofing company that takes calls in your town will phone you back. If the roof is leaking right now, call <a href="tel:{{ site.business.phone_tel }}">{{ site.business.phone_display }}</a> instead; a form cannot get anyone moving tonight.</p>
+      <form class="form" name="{{ site.forms.contact }}" method="POST" action="/contact/thanks/" data-netlify="true" netlify-honeypot="bot-field">
+        <input type="hidden" name="form-name" value="{{ site.forms.contact }}">
+        <p class="hp"><label>Leave this field empty <input name="bot-field" tabindex="-1" autocomplete="off"></label></p>
+        <label>Name <input name="name" required autocomplete="name"></label>
+        <label>Phone number <input name="phone" type="tel" required autocomplete="tel"></label>
+        <label>Town or ZIP code <input name="city" required autocomplete="address-level2"></label>
+        <label>What is going on?
+          <select name="need" required>
+            <option value="">Choose one</option>
+            <option>Leak</option>
+            <option>Hail or storm damage</option>
+            <option>Roof inspection</option>
+            <option>Replacement quote</option>
+            <option>Second opinion on a quote</option>
+            <option>Commercial roof</option>
+            <option>Something else</option>
+          </select>
+        </label>
+        <label>Note for the roofer (optional) <textarea name="message" rows="4"></textarea></label>
+        <button class="btn btn--orange" type="submit">Send my request</button>
+        <p class="form__note">What you send goes only to the roofing company that will call you. It is never sold. Read the <a href="/privacy-policy.html">privacy policy</a> and the <a href="/terms.html">terms</a>.</p>
+      </form>
+    </div>
+    {{ img('roofer-ladder-at-gutter.jpg', 'Roofer standing at the foot of an aluminum ladder set against the gutter of a brick home', 1200, 800) }}
+  </div>
+</section>
+
+<section class="prose">
+  <h2>Ways to reach the line</h2>
+  <div class="grid-3">
+    <div class="panel">
+      <h3>Phone, any hour</h3>
+      <p><a href="tel:{{ site.business.phone_tel }}">{{ site.business.phone_display }}</a>. An automated assistant answers day and night, every day of the year. Say you need a roofer, describe the problem, and name your town.</p>
+    </div>
+    <div class="panel">
+      <h3>The form on this page</h3>
+      <p>Best for work that can wait: an aging roof, a bid you want compared, or a commercial roof that needs a look before the next storm season.</p>
+    </div>
+    <div class="panel">
+      <h3>Facebook</h3>
+      <p>The line also has a Facebook page linked at the bottom of every page. For roof help, the phone gets you to a roofer faster than a message.</p>
+    </div>
+  </div>
+  <h2>What to have ready</h2>
+  <ul class="checks">
+    <li>Your address or nearest cross streets, and the town (city limits matter for permits).</li>
+    <li>What you see: a stain, a drip, missing shingles, dented gutters, hail in the yard, a limb on the roof.</li>
+    <li>When it started, and the date of the storm if one caused it.</li>
+    <li>Whether you have already called your insurance company, and the claim number if you have one.</li>
+    <li>Roughly how old the roof is, if you know.</li>
+  </ul>
+  {{ img('homeowner-photographing-roof-for-claim-hero.jpg', 'Homeowner standing on the front lawn taking photos of the roof of a two-story brick home', 1920, 1080) }}
+  {{ m.disclosure() }}
+</section>
+{% endblock %}
