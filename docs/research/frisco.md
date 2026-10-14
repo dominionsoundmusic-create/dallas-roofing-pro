@@ -17,3 +17,6 @@ Page: /roofing-company-frisco-tx/ . Target: roofing in frisco tx (880).
 - Old page: ACV policy claims about Texas policies generally (moved to general advice only, no statistics); Starwood, Stonebriar, Phillips Creek Ranch, Richwoods (not verified this pass, left out); HOA submission requirements (product sheet, color sample, photo) left out.
 - Contractor registration fee ($50 on an older form): not confirmed current, left out.
 - Building Inspections phone number: seen only in a search summary, left out.
+
+## Fact-check fc9 (Oct 14 2026)
+- May 2023 WFAA row was misdated: that WFAA article covers March 24 2019. Replaced with March 24 2019 (WFAA; DMN: NWS listed Frisco, McKinney, Prosper among hardest hit).

@@ -14,3 +14,6 @@ Page: /roofing-murphy-tx/ . Target: roofing murphy tx (10).
 - Any NWS report naming Murphy specifically for hail damage: none; page does not claim a named storm hit Murphy, only the WFAA wait-times report.
 - Neighborhood names, HOA rules (left out; general advice to check HOA).
 - Code edition currently adopted.
+
+## Fact-check fc9 (Oct 14 2026)
+- Re-roof sheet wording: "Wood shingle, shake, and metal roofing systems associated with agricultural or industrial buildings are prohibited. Natural metal roofs are not allowed, whether galvanized or aluminum." Page aligned to it.

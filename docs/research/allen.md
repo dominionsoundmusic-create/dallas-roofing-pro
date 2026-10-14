@@ -15,3 +15,7 @@ Page: /roofing-company-allen-tx/ . Target: roofing company allen tx (390).
 - Star Creek and Watters Creek from old page (not re-verified): left out.
 - Exact date of WFAA May 2023 article (search summary said May 19 2023): phrased "May 2023".
 - Allen-specific damage counts for any storm.
+
+## Fact-check fc9 (Oct 14 2026)
+- The WFAA article 287-b7b61185 covers the March 24 2019 storm (baseball hail between Frisco and McKinney, Allen block, ICT $300-400M), not May 2023. May 2023 row removed from the page.
+- Census: 2010 original count 84,246; page now says "more than 84,000" and "roughly 19,000" for 1990.

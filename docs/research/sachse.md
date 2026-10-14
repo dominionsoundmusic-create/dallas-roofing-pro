@@ -15,3 +15,6 @@ Page: /roofing-sachse-tx/ . Target: roofing sachse tx (10).
 - Whether Sachse touches Lake Ray Hubbard (only AI encyclopedia): left out.
 - Woodbridge development dates; neighborhood ages.
 - Whether a co-op serves any part of Sachse: not found; default Oncor wording kept ("or your local electric utility").
+
+## Fact-check fc9 (Oct 14 2026)
+- 6 a.m. time not found in search; page now says "early that morning". Tool shed is in the June 14 2024 Sachse Scene. 1990 Collin County spread claim removed (unverified).

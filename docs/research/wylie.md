@@ -14,3 +14,6 @@ Page: /roofing-wylie-tx/ . Target: roofing wylie tx (90).
 - Neighborhood names: not verified, left out.
 - Whether Wylie runs a separate contractor registration for roofers (engineering registration found only): page says ask the department.
 - Grayson-Collin Electric Coop presence: uncertain, left out.
+
+## Fact-check fc9 (Oct 14 2026)
+- NWS page does not mention softball-size hail for Wylie; removed. NBC RICOWI team said overlays weaken hail resistance but found no overlays in its survey; wording changed. NBC URL corrected to /news/local/roofing-experts-study-north-texas-hail-damage/2014532/. 1993 tornado: Mothers Day, May 9 1993 (Wikipedia).
