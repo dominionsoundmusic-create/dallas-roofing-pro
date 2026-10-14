@@ -17,3 +17,8 @@
 - Electric provider (CoServ or Oncor) for Corinth: not verified; default safety wording.
 - Incorporation date, housing age, HOA rules, neighborhoods beyond Sutton Fields: left out.
 - Residential permit fee: the 2023 ordinance lists $0.04 per sq ft; the "When is a permit required" page says $25 residential. Conflict, so page tells reader to confirm the fee with the city and quotes neither.
+
+## Fact-check fc12 (Oct 14 2026)
+- REMOVED from page: Sutton Fields / FM 1385 wind damage. Sutton Fields is a Celina ETJ community with Aubrey and Celina addresses off FM 1385 near US 380, not Corinth (builder and listing pages). The StormerSite "Corinth" listing pulls reports from a radius.
+- REMOVED: 2019 64 mph NCTC gust (StormerSite only; no NWS or news confirmation found).
+- The EF-1 car wash tornado was in Hickory Creek (Fox 4); page now says so.

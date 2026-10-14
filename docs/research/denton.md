@@ -16,3 +16,7 @@
 - Exact DME boundary (which addresses are CoServ or Oncor): not verified; page says DME inside its area, otherwise the provider on your bill.
 - Housing age by neighborhood, HOA rules, Lake Ray Roberts neighborhoods: not verified; left out.
 - Fry Street: not in the COA results; not named.
+
+## Fact-check fc12 (Oct 14 2026)
+- REMOVED: "From Jan 1 2026 COA applications follow a submittal calendar." City search shows the Jan 1 2026 change applies to historic tax exemption applications (accepted only in January), not COAs. Replaced with the checklist rules: COA approved before work and before any building permit; applications within two weeks of an HLC meeting go to the next meeting.
+- Softened: the 2013 W Hickory and 2014 Bolivar agenda items (not re-found) now read "past agendas include roof replacement requests".
