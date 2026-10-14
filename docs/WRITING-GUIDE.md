@@ -77,7 +77,7 @@ Public agency numbers (a city permit office, TDI, Oncor) are fine when sourced.
 - Cities differ. Some require a permit for a re-roof and some make roofers register: research YOUR city
   on its own site (search with `allowed_domains` set to the city's domain). Plano (verified): a permit is
   required for all re-roof projects; the city does a final roof inspection (Plano Building Inspections,
-  1520 K Avenue, Suite 220; https://www.plano.gov/220/Building-Inspections). Unincorporated county land
+  1520 K Avenue; https://www.plano.gov/220/Building-Inspections). Unincorporated county land
   usually has no city permit: say so only if you find it stated.
 - Facts must be real and current. WebSearch works (WebFetch and curl do not reach outside sites here),
   so verify against search results from the official or primary source. Cite every source you use in
