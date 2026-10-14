@@ -41,3 +41,8 @@ Target: roofing benbrook tx (10). Supporting: roofing company benbrook tx (10), 
 - Neighborhood names, housing age, HOA rules (search budget). Electric provider not verified: default
   safety box (Oncor or your local utility).
 - Whether every re-roof needs a Benbrook permit.
+
+## Housing age (listings only, not used as fact)
+- Listings show 1959 to 1961 homes in North Benbrook / Westvale (Owendale Dr, Northbrook Dr) and a TopHap
+  median year built of 1982: aggregator and listing data, NOT used on the page.
+  https://www.trulia.com/home/8025-northbrook-dr-benbrook-tx-76116-29153358
