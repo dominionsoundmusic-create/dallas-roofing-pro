@@ -1,0 +1,42 @@
+# redirects (Playbook 2.0 rebuild, Oct 13 2026)
+# Every rule from the old _redirects is kept (sources unchanged). Targets now point straight at the
+# closest new page, so there are no redirect chains. Netlify serves an existing file before a rule
+# without "!", so the wildcards below never hide a real page.
+
+# Oct 13 2026: the old "free roof inspection" page becomes /roof-inspection/. "Free inspection" is a
+# phrase the site no longer uses (many roofers inspect at no charge; callers confirm that on the call).
+/free-roof-inspection/  /roof-inspection/  301
+/free-roof-inspection  /roof-inspection/  301
+
+# Sep 11 2026: templated city pages retired; wildcards send them to the hub.
+/free-roof-inspection/*  /roof-inspection/  301
+/hail-damage-roof-repair/*  /hail-damage-roof-repair/  301
+/roof-leak-repair/*  /roof-leak-repair/  301
+/roof-repair/*  /roof-repair/  301
+/roof-replacement/*  /roof-replacement/  301
+/storm-damage-roof-repair/*  /storm-damage-roof-repair/  301
+
+# Sep 25 2026: automatic blog posts retired (templated). Each old post points to the closest real page
+# (Oct 13 2026: cost, insurance, contractor, lifespan and storm-steps posts now go to the matching guide).
+/blog/how-to-spot-hail-damage-on-your-roof-1786366192705.html  /hail-damage-roof-repair/  301
+/blog/how-to-spot-hail-damage-on-your-roof-1786366192705  /hail-damage-roof-repair/  301
+/blog/how-much-does-roof-replacement-cost-in-dallas-1786024029159.html  /roof-replacement-cost-dallas/  301
+/blog/how-much-does-roof-replacement-cost-in-dallas-1786024029159  /roof-replacement-cost-dallas/  301
+/blog/does-insurance-cover-storm-damage-to-your-roof-1786106763056.html  /roof-insurance-claim-texas/  301
+/blog/does-insurance-cover-storm-damage-to-your-roof-1786106763056  /roof-insurance-claim-texas/  301
+/blog/how-to-choose-a-roofing-contractor-you-can-trust-1785707621092.html  /do-roofers-need-a-license-in-texas/  301
+/blog/how-to-choose-a-roofing-contractor-you-can-trust-1785707621092  /do-roofers-need-a-license-in-texas/  301
+/blog/how-long-does-a-roof-last-in-dallas-weather-1786452523923.html  /how-long-does-a-roof-last-in-texas/  301
+/blog/how-long-does-a-roof-last-in-dallas-weather-1786452523923  /how-long-does-a-roof-last-in-texas/  301
+/blog/free-roof-inspections-what-they-should-include-1785851567941.html  /roof-inspection/  301
+/blog/free-roof-inspections-what-they-should-include-1785851567941  /roof-inspection/  301
+/blog/why-roof-leaks-get-expensive-when-ignored-1786278843118.html  /roof-leak-repair/  301
+/blog/why-roof-leaks-get-expensive-when-ignored-1786278843118  /roof-leak-repair/  301
+/blog/what-to-do-after-a-storm-damages-your-roof-1786970574651.html  /what-to-do-after-storm-damage-to-roof/  301
+/blog/what-to-do-after-a-storm-damages-your-roof-1786970574651  /what-to-do-after-storm-damage-to-roof/  301
+/blog/signs-you-need-a-new-roof-not-a-repair-1786192310051.html  /roof-replacement/  301
+/blog/signs-you-need-a-new-roof-not-a-repair-1786192310051  /roof-replacement/  301
+/blog/how-to-choose-a-roofing-contractor-you-can-trust-1785937701926.html  /do-roofers-need-a-license-in-texas/  301
+/blog/how-to-choose-a-roofing-contractor-you-can-trust-1785937701926  /do-roofers-need-a-license-in-texas/  301
+/blog/*  /  301
+/blog  /  301
