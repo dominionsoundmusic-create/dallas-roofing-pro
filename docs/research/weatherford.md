@@ -29,7 +29,7 @@ Target: roofing weatherford texas (480). Page: /roofing-weatherford-tx/
   Source: https://www.cbsnews.com/texas/news/freak-power-outage-leaves-some-homeowners-with-unexpected-expenses
 
 ## Storms
-- A Thursday-night windstorm (year not confirmed in results; possibly 2023): copper paneling torn off the
+- Windstorm of Thursday, March 2, 2023 (date confirmed by fact-check fc7: city release quoted by the Weatherford Democrat, WISD closed March 3; about 10,000 city electric customers out): copper paneling torn off the
   City Hall roof, trees uprooted, billboards north of downtown blown over, residents displaced from two
   apartment complexes, Weatherford ISD canceled classes; NWS meteorologist believed straight-line winds,
   no tornado confirmed; Parker County Fire Marshal said five or six locations reported 80 to 90 mph winds.
@@ -46,7 +46,7 @@ Target: roofing weatherford texas (480). Page: /roofing-weatherford-tx/
   square", general.
 
 ## Could not verify / left out
-- Exact date/year of the City Hall roof windstorm (described without a date).
+- (Resolved by fc7) City Hall windstorm date: March 2, 2023.
 - Hail dates from primary sources; Lake Weatherford details (no source found in budget).
 - Which addresses are served by the city utility vs Tri-County Electric (page says check your bill).
 - Re-roof permit fees; whether every re-roof needs a permit (page says ask the city).
