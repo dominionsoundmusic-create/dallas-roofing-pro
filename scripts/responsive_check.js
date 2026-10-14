@@ -72,10 +72,16 @@ function pages(dir, out = []) {
               const kids = [...c.children].filter((k) => k.getBoundingClientRect().width > 0);
               if (kids.length < 2) continue;
               const cb = c.getBoundingClientRect();
-              const tops = kids.map((k) => Math.round(k.getBoundingClientRect().top));
-              const lastTop = Math.max(...tops);
-              const last = kids.filter((k, i) => Math.abs(tops[i] - lastTop) < 4).map((k) => k.getBoundingClientRect());
-              if (last.length === kids.length) continue; // one row only: nothing wraps
+              // rows = items whose vertical ranges overlap (a centered, shorter column is still the same row)
+              const boxes = kids.map((k) => k.getBoundingClientRect()).sort((a, b) => a.top - b.top);
+              const rows = [];
+              for (const b of boxes) {
+                const r = rows[rows.length - 1];
+                if (r && b.top < r.bottom - 1) { r.items.push(b); r.bottom = Math.max(r.bottom, b.bottom); }
+                else rows.push({ items: [b], bottom: b.bottom });
+              }
+              if (rows.length < 2) continue; // one row only: nothing wraps
+              const last = rows[rows.length - 1].items;
               const left = Math.min(...last.map((b) => b.left)) - cb.left;
               const right = cb.right - Math.max(...last.map((b) => b.right));
               if (right > 60 && left < 10) out.push((c.className || c.tagName) + ` (${last.length} item(s) in last row, ${Math.round(right)}px empty on the right)`);
