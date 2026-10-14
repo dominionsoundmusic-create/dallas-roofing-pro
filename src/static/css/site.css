@@ -513,3 +513,7 @@ body > .skiptranslate { display: none !important; }
 @media (max-width: 700px) { .grid-3 > *, .grid-2 > * { flex-basis: 100%; } }
 .facts, .prose .facts { display: flex; flex-wrap: wrap; justify-content: center; }
 .facts > li { flex: 1 1 200px; }
+/* a split that starts with its photo keeps the photo in the narrow column, like the text-first splits */
+@media (min-width: 861px) { .prose .split:has(> .fig:first-child) { grid-template-columns: .55fr 1.45fr; } }
+/* a white section followed by a color band gets bottom spacing, so a photo never touches the band */
+.prose:has(+ .band), .prose:has(+ section.band) { padding-bottom: clamp(40px, 6vw, 72px); }
