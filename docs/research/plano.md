@@ -18,3 +18,6 @@ Page: /roofing-contractors-plano-tx/ . Target: plano tx roofing companies (720).
 - Great Update Rebate: exists on plano.gov but current status/eligibility for roofs unverified: left out.
 - Housing-age statistics; Plano neighborhoods (Willow Bend, Deerfield, Legacy) not verified this round: page names only Downtown/Haggard Park and US 75/Tollway corridors generically.
 - 25% exemption (conflict) not stated as fact.
+
+## Fact-check fc8 (Oct 14 2026)
+- 263,440 homes "in the Plano storm footprint" removed from the page: Canadian Underwriter assigns 263,440 to the San Antonio event and gives Plano 102,674; only the $35.8 million Plano loss is consistent across reports.

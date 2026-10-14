@@ -30,7 +30,7 @@ Target: roofing lancaster tx (10). Page: /roofing-lancaster-tx/
   200 homes and 26 businesses destroyed or severely damaged; Junior high, library, City Hall damaged. AP/Red Cross
   preliminary: 922 Lancaster homes affected, 173 destroyed, 192 major damage (counts differ, page uses marker).
   Sources: https://www.hmdb.org/m.asp?m=300488 ; https://www.dallasobserver.com/?p=40491566
-- April 3, 2012: NWS Fort Worth survey: EF-2 (NOT EF3, the EF3 that day was near Royse City), about 130 mph,
+- April 3, 2012: NWS Fort Worth survey: EF-2 (NOT EF3, the EF3 that day was the Forney tornado in Kaufman County; the Royse City tornado was EF-2 (fc8 check)), about 130 mph,
   200 yards wide, 7.1 miles. Began east of I-35E and Parkerville Road, moved northeast, worst damage near
   Wintergreen Road, Telephone Road and North Dallas Road, crossed I-20 (trucking facility), lifted near Bonnie View
   Road and Memory Lane in Dallas. Source: https://www.weather.gov/fwd/april32012lancasterdallas ;
