@@ -28,7 +28,7 @@ guide. Every fact below was verified earlier by someone else and is marked: [R] 
   https://dallascityhall.com/departments/sustainabledevelopment/Pages/storm_damage_repair_info.aspx
 
 ## Door knockers
-- [T] Texas AG (March 2026 consumer alert after an ice storm): in many instances a right to cancel a door-to-door
+- [T] Texas AG (consumer alert dated February 8, 2023, after ice storms; fc4 corrected the date, Oct 14 2026): in many instances a right to cancel a door-to-door
   contract within three days after signing; seller must tell you; check BBB; don't be rushed; report to 800-621-0508.
   https://www.texasattorneygeneral.gov/news/releases/paxton-issues-consumer-alert-help-inform-texans-their-consumer-rights-following-last-weeks-ice
 - [H] AG door-to-door 3-day right of rescission page (three business days, Bus. & Com. Code ch. 601).
@@ -36,7 +36,7 @@ guide. Every fact below was verified earlier by someone else and is marked: [R] 
 - [T] McKinney: permit required any time someone solicits in the city; lasts six months. https://www.mckinneytexas.org/1400/Solicitors-Permit
 - [T] Saginaw: solicitors need a city permit, wear the badge, obey No Soliciting signs; 9 a.m. to 8 p.m. April to
   October, 9 a.m. to 6 p.m. November to March. https://www.SaginawTX.org/business/solicitors_permit.php
-- [T] Bus. & Com. Code ch. 58 (declared disasters, out-of-area contractors, no payment before work starts).
+- [T] Bus. & Com. Code ch. 58 (declared disasters, no payment before work starts; 58.002(b) exempts a contractor with a physical business address in the county or an adjacent county for at least one year; fc4 verified).
   https://statutes.capitol.texas.gov/Docs/BC/htm/BC.58.htm
 
 ## Left out (not verified)

@@ -15,3 +15,4 @@ Target: roofing saginaw tx (10). County: Tarrant. (Do not confuse with Saginaw, 
 - Which re-roofs need a permit (scope threshold): not stated; page says ask the permit office.
 - Electric provider for every address: not verified; default wording used.
 - Recent hail events after 2000: not found in official sources. Left out.
+- Fact-check fc5 (Oct 14 2026): 817-232-4640 is the city's main line; the Building Inspections & Permits direct line is 817-230-0453 (city site). Page updated.
