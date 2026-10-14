@@ -27,7 +27,7 @@ ROOT = Path(__file__).resolve().parent.parent
 DROP = [r'<ol class="how-strip">.*?</ol>', r'<div class="note">\s*<p><strong>(?:About this line|Texas has no state roofing license|The deductible is yours to pay|Coastal windstorm rules|No state license for roofers|Your deductible is yours to pay).*?</div>',
         r'<aside class="sources".*?</aside>', r'<ul class="pill-list">.*?</ul>', r'<div class="cards">.*?</div>\s*</div>\s*</article>\s*</div>',
         r'<div class="note note--orange">\s*<p><strong>(?:Stay off the roof\.|Leave the roof to the roofer\.).*?</div>', r'<div class="note note--orange">\s*<p>(?:Not sure whether|Not sure if this is a small repair).*?</div>', r'<script.*?</script>', r'<style.*?</style>', r'<!--.*?-->',
-        r'<figure.*?</figure>', r'<table.*?</table>']
+        r'<figure.*?</figure>', r'<table.*?</table>', r'<select.*?</select>']
 
 
 def page_text(raw):
@@ -75,7 +75,9 @@ def load(dist):
 
 # 8-word runs that are only proper names (agencies, the owner company, statutes) cannot be reworded, nor can
 # the referral disclosure INTAKE.md prescribes ("... is a free phone line, not a roofing contractor").
-NAMES = ("business and commerce code", "texas department of insurance", "insurance code section", "is a free phone line not a", "free phone line not a roofing", "a free phone line not a", "d b a", "dominion digital", "all rights reserved", "privacy policy", "the line is a free phone line", "independent local")
+NAMES = ("business and commerce code", "texas department of insurance", "insurance code section", "is a free phone line not a", "free phone line not a roofing", "a free phone line not a", "d b a", "dominion digital", "all rights reserved", "privacy policy", "the line is a free phone line", "independent local",
+         # Question rows from the keyword data, used word for word as FAQ questions on both sites
+         "can i get my roof replaced for free", "do roofers need a license in texas")
 
 
 def runs8(words):
