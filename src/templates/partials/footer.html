@@ -5,6 +5,7 @@
     <div class="site-footer__brand">
       <a href="/" class="logo"><img src="{{ b.logo }}" alt="{{ b.name }}" width="{{ b.logo_width }}" height="{{ b.logo_height }}" loading="lazy"></a>
       <p>{{ b.short_disclosure }} {{ b.referral_disclosure }}</p>
+      <div class="site-footer__contact">
       <p><a class="site-footer__phone" href="tel:{{ b.phone_tel }}">{{ b.phone_display }}</a><br><span class="small">An automated assistant takes calls 24 hours a day, every day.</span></p>
       {% set active = [] %}{% for key, label in socials %}{% if site.social[key] %}{% set _ = active.append((key, label)) %}{% endif %}{% endfor %}
       {% if active %}
@@ -14,20 +15,17 @@
         {% endfor %}
       </ul>
       {% endif %}
+      </div>
     </div>
-    <div>
-      <p class="site-footer__label">Services</p>
-      <ul>{% for s in site.services %}<li><a href="{{ s.url }}">{{ s.short }}</a></li>{% endfor %}</ul>
-    </div>
-    <div>
-      <p class="site-footer__label">Guides</p>
-      <ul>{% for g in site.guides %}<li><a href="{{ g.url }}">{{ g.short }}</a></li>{% endfor %}</ul>
-      <p class="site-footer__label">Company</p>
-      <ul>{% for l in site.footer_links %}<li><a href="{{ l.href }}">{{ l.label }}</a></li>{% endfor %}</ul>
-    </div>
-    <div class="site-footer__areas">
-      <p class="site-footer__label">Towns across Dallas-Fort Worth</p>
-      <ul>{% for a in site.areas %}<li><a href="{{ a.url }}">{{ a.name }}</a></li>{% endfor %}<li><a href="/service-areas/"><strong>Every DFW town</strong></a></li></ul>
+    <div class="site-footer__rows">
+      <div class="frow"><p class="site-footer__label">Services</p>
+        <ul class="flinks">{% for s in site.services %}<li><a href="{{ s.url }}">{{ s.short }}</a></li>{% endfor %}</ul></div>
+      <div class="frow"><p class="site-footer__label">Guides</p>
+        <ul class="flinks">{% for g in site.guides %}<li><a href="{{ g.url }}">{{ g.short }}</a></li>{% endfor %}</ul></div>
+      <div class="frow"><p class="site-footer__label">Company</p>
+        <ul class="flinks">{% for l in site.footer_links %}<li><a href="{{ l.href }}">{{ l.label }}</a></li>{% endfor %}</ul></div>
+      <div class="frow frow--towns"><p class="site-footer__label">Towns across Dallas-Fort Worth</p>
+        <ul class="flinks">{% for a in site.areas %}<li><a href="{{ a.url }}">{{ a.name }}</a></li>{% endfor %}<li><a href="/service-areas/"><strong>Every DFW town</strong></a></li></ul></div>
     </div>
   </div>
   <div class="site-footer__bottom">

@@ -342,25 +342,38 @@ tbody th { color: var(--navy); background: var(--tint); }
 .site-footer { background: var(--navy-deep); color: #cfcede; font-size: .95rem; padding-top: 56px; }
 .site-footer a { color: #ecebf3; text-decoration: none; }
 .site-footer a:hover { color: var(--link-soft); text-decoration: underline; }
-.site-footer__grid { display: grid; grid-template-columns: 1.4fr 1fr 1fr; gap: 32px; padding-bottom: 40px; }
-.site-footer__areas { grid-column: 1 / -1; border-top: 1px solid rgba(255, 255, 255, .1); padding-top: 24px; }
-.site-footer__areas ul { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 6px 24px; margin: 0; }
-.site-footer__areas li { margin: 0; }
-@media (max-width: 1100px) { .site-footer__areas ul { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
-@media (max-width: 700px) { .site-footer__areas ul { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
-.site-footer__grid ul { list-style: none; padding: 0; margin: 0 0 18px; }
-.site-footer__grid li { margin: 0 0 6px; }
+.site-footer__grid { display: block; padding-bottom: 32px; }
+.site-footer__brand { display: grid; grid-template-columns: auto minmax(0, 1fr) auto; gap: 16px 48px; align-items: center; padding-bottom: 28px; border-bottom: 1px solid rgba(255, 255, 255, .1); }
+.site-footer__brand .logo img { margin-bottom: 0; }
+.site-footer__brand p { margin: 0; max-width: none; }
+.site-footer__contact { text-align: right; }
+.site-footer__contact .social { justify-content: flex-end; margin: 12px 0 0; }
+.site-footer__rows { padding-top: 8px; }
+.frow { display: grid; grid-template-columns: 200px minmax(0, 1fr); gap: 8px 24px; padding: 18px 0; border-bottom: 1px solid rgba(255, 255, 255, .07); align-items: start; }
+.frow .site-footer__label { padding-top: 9px; }
+.frow:last-child { border-bottom: 0; }
+.frow .site-footer__label { margin: 0; }
+.site-footer .flinks { list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; gap: 10px; }
+.site-footer .flinks li { margin: 0; }
+.site-footer .flinks a { display: inline-block; padding: 7px 14px; border: 1px solid rgba(255, 255, 255, .22); border-radius: 999px; font-size: .92rem; line-height: 1.2; background: rgba(255, 255, 255, .04); }
+.site-footer .flinks a:hover { border-color: var(--orange); color: #fff; text-decoration: none; background: rgba(201, 168, 76, .14); }
+@media (max-width: 900px) {
+  .site-footer__brand { grid-template-columns: 1fr; }
+  .site-footer__contact { text-align: left; }
+  .site-footer__contact .social { justify-content: flex-start; }
+  .frow { grid-template-columns: 1fr; padding: 16px 0; }
+  .frow .site-footer__label { padding-top: 0; }
+  .site-footer .flinks { gap: 8px; }
+  .site-footer .flinks a { padding: 6px 12px; font-size: .88rem; }
+}
 .site-footer__label { font-size: .78rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: #a3a2b8; margin: 0 0 10px; }
-.site-footer__brand .logo img { height: 44px; width: auto; margin-bottom: 16px; }
-.site-footer__brand p { max-width: 42ch; }
+.site-footer__brand .logo img { height: 44px; width: auto; }
 .site-footer__phone { font-size: 1.25rem; font-weight: 800; color: var(--orange) !important; }
 .site-footer__bottom { border-top: 1px solid rgba(255, 255, 255, .1); padding: 18px var(--gutter); text-align: center; font-size: .88rem; }
 .site-footer__bottom p { margin: 0; }
 .social { list-style: none; display: flex; gap: 10px; padding: 0; margin: 10px 0 0; }
 .social a { display: inline-flex; width: 42px; height: 42px; border-radius: 50%; align-items: center; justify-content: center; background: var(--navy-2); color: var(--white); }
 .social a:hover { background: var(--orange); color: var(--navy); }
-@media (max-width: 900px) { .site-footer__grid { grid-template-columns: 1fr 1fr; } .site-footer__brand { grid-column: 1 / -1; } }
-@media (max-width: 520px) { .site-footer__grid { grid-template-columns: 1fr; } }
 
 /* ---------- home specifics ---------- */
 .how-strip { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; counter-reset: h; list-style: none; padding: 0; margin: 30px 0 0; }
