@@ -19,3 +19,7 @@
 - Aggregator hail report (1.75 in near Business 121, Mar 23 2016): third-party site only; left out.
 - Which streets CoServ vs Oncor serves: not verified.
 - Castle Hills HOA roofing rules: not found.
+
+## Fact-check fc10 (Oct 14 2026)
+- USACE: dam closure began June 1954, completed August 1955; 29,592 acres at normal pool (USACE master plan, TPWD). Page corrected.
+- "Re-roofs & re-decks" on the permit list may refer to patio decks; page no longer infers roof sheathing from it.

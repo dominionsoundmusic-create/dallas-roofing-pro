@@ -15,3 +15,6 @@ Page: /roofing-princeton-tx/ . Target: roofers princeton tx (10).
 - Neighborhood names; housing age details beyond growth.
 - 2012 report of 15 to 20 homes with minor roof damage in Princeton (StormerSite only): left out.
 - Current registration fee ($75 vs $100).
+
+## Fact-check fc10 (Oct 14 2026)
+- City FAQ: a permit is required for any type of roof repair or replacement; flat $90 (princetontx.gov/FAQ.aspx). Permitting phone 972-736-6169; 972-736-2416 is the Municipal Center. July 2023 estimate given as about 28,000 (28,027 not confirmed).

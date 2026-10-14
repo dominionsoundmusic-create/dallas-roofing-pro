@@ -15,3 +15,7 @@ Page: /roofing-celina-tx/ . Target: roofing celina tx (50).
 - Registration fee amount (Master Fee Chart not seen).
 - Historic downtown square details: no results, left out.
 - Light Farms acreage (listing only): left out.
+
+## Fact-check fc10 (Oct 14 2026)
+- Portal: residential permits and contractor registration moved from MyGov to MGO Connect for permits submitted after Dec 8 2025 (celina-tx.gov/920, /1985). Page updated.
+- Outage page URL corrected to https://www.celina-tx.gov/1974/Report-a-Power-Outage
