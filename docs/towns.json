@@ -1,0 +1,1042 @@
+{
+ "addison": {
+  "name": "Addison",
+  "url": "/roofing-addison-tx/",
+  "qualifies": false,
+  "existing": false,
+  "target": null,
+  "volume": 0,
+  "sd": null,
+  "qualifying_rows": []
+ },
+ "allen": {
+  "name": "Allen",
+  "url": "/roofing-company-allen-tx/",
+  "qualifies": true,
+  "existing": true,
+  "target": "roofing company allen tx",
+  "volume": 390,
+  "sd": 19,
+  "qualifying_rows": [
+   "roofing company allen tx (390)",
+   "roofing contractors allen tx (170)",
+   "roofing allen texas (140)",
+   "roofing allen tx (140)",
+   "roofer allen tx (110)",
+   "residential roofing allen tx (50)"
+  ]
+ },
+ "anna": {
+  "name": "Anna",
+  "url": "/roofing-anna-tx/",
+  "qualifies": true,
+  "existing": false,
+  "target": "roofing anna tx",
+  "volume": 10,
+  "sd": 13,
+  "qualifying_rows": [
+   "roofing anna tx (10)",
+   "roofing companies anna tx (10)"
+  ]
+ },
+ "argyle": {
+  "name": "Argyle",
+  "url": "/roofing-argyle-tx/",
+  "qualifies": true,
+  "existing": false,
+  "target": "roofing argyle tx",
+  "volume": 40,
+  "sd": 15,
+  "qualifying_rows": [
+   "roofing argyle tx (40)",
+   "roofing companies argyle tx (40)"
+  ]
+ },
+ "arlington": {
+  "name": "Arlington",
+  "url": "/roofing-arlington-tx/",
+  "qualifies": true,
+  "existing": true,
+  "target": "roofing arlington tx",
+  "volume": 880,
+  "sd": 27,
+  "qualifying_rows": [
+   "roofing arlington tx (880)",
+   "roofing companies arlington tx (880)",
+   "roofing companies in arlington texas (590)",
+   "roofing in arlington tx (210)",
+   "roofer in arlington tx (170)",
+   "roofing contractor arlington tx (110)",
+   "commercial roofing arlington tx (90)",
+   "roofing service in arlington tx (10)",
+   "roofing supply arlington tx (10)"
+  ]
+ },
+ "aubrey": {
+  "name": "Aubrey",
+  "url": "/roofing-aubrey-tx/",
+  "qualifies": true,
+  "existing": false,
+  "target": "roofing aubrey tx",
+  "volume": 10,
+  "sd": 13,
+  "qualifying_rows": [
+   "roofing aubrey tx (10)"
+  ]
+ },
+ "azle": {
+  "name": "Azle",
+  "url": "/roofing-azle-tx/",
+  "qualifies": true,
+  "existing": false,
+  "target": "roofing azle tx",
+  "volume": 110,
+  "sd": 24,
+  "qualifying_rows": [
+   "roofing azle tx (110)"
+  ]
+ },
+ "balch-springs": {
+  "name": "Balch Springs",
+  "url": "/roofing-balch-springs-tx/",
+  "qualifies": false,
+  "existing": false,
+  "target": null,
+  "volume": 0,
+  "sd": null,
+  "qualifying_rows": []
+ },
+ "bedford": {
+  "name": "Bedford",
+  "url": "/roofing-bedford-tx/",
+  "qualifies": true,
+  "existing": false,
+  "target": "roofing bedford tx",
+  "volume": 10,
+  "sd": 34,
+  "qualifying_rows": [
+   "roofing bedford tx (10)"
+  ]
+ },
+ "benbrook": {
+  "name": "Benbrook",
+  "url": "/roofing-benbrook-tx/",
+  "qualifies": true,
+  "existing": false,
+  "target": "roofing benbrook tx",
+  "volume": 10,
+  "sd": 37,
+  "qualifying_rows": [
+   "roofing benbrook tx (10)",
+   "roofing company benbrook tx (10)",
+   "roofing benbrook (10)"
+  ]
+ },
+ "burleson": {
+  "name": "Burleson",
+  "url": "/roofing-burleson-tx/",
+  "qualifies": true,
+  "existing": false,
+  "target": "burleson roofing companies",
+  "volume": 170,
+  "sd": 27,
+  "qualifying_rows": [
+   "burleson roofing companies (170)",
+   "roofing burleson tx (140)",
+   "roofing burleson (140)",
+   "roof repair burleson tx (50)",
+   "roofers in burleson tx (30)"
+  ]
+ },
+ "carrollton": {
+  "name": "Carrollton",
+  "url": "/carrollton-roofing/",
+  "qualifies": true,
+  "existing": true,
+  "target": "carrollton roofing",
+  "volume": 110,
+  "sd": 18,
+  "qualifying_rows": [
+   "roofing carrollton tx (110)",
+   "carrollton roofer (110)",
+   "carrollton roofing (110)",
+   "carrollton roof repair (40)",
+   "roofing carrollton (10)",
+   "carrollton roof company (10)"
+  ]
+ },
+ "cedar-hill": {
+  "name": "Cedar Hill",
+  "url": "/roofing-cedar-hill-tx/",
+  "qualifies": true,
+  "existing": false,
+  "target": "roofing cedar hill tx",
+  "volume": 30,
+  "sd": 11,
+  "qualifying_rows": [
+   "roofing cedar hill tx (30)"
+  ]
+ },
+ "celina": {
+  "name": "Celina",
+  "url": "/roofing-celina-tx/",
+  "qualifies": true,
+  "existing": false,
+  "target": "roofing celina tx",
+  "volume": 50,
+  "sd": 10,
+  "qualifying_rows": [
+   "roofing celina tx (50)",
+   "celina roofing (40)"
+  ]
+ },
+ "cleburne": {
+  "name": "Cleburne",
+  "url": "/roofing-cleburne-tx/",
+  "qualifies": true,
+  "existing": false,
+  "target": "roofing cleburne tx",
+  "volume": 50,
+  "sd": 22,
+  "qualifying_rows": [
+   "roofing cleburne tx (50)"
+  ]
+ },
+ "colleyville": {
+  "name": "Colleyville",
+  "url": "/roofing-colleyville-tx/",
+  "qualifies": true,
+  "existing": false,
+  "target": "roofing companies colleyville tx",
+  "volume": 140,
+  "sd": 25,
+  "qualifying_rows": [
+   "roofing companies colleyville tx (140)",
+   "roofing colleyville tx (50)",
+   "roofing colleyville (50)"
+  ]
+ },
+ "coppell": {
+  "name": "Coppell",
+  "url": "/roofing-coppell-tx/",
+  "qualifies": true,
+  "existing": false,
+  "target": "roofing coppell tx",
+  "volume": 40,
+  "sd": 12,
+  "qualifying_rows": [
+   "roofing coppell tx (40)"
+  ]
+ },
+ "corinth": {
+  "name": "Corinth",
+  "url": "/roofing-corinth-tx/",
+  "qualifies": true,
+  "existing": false,
+  "target": "roofing corinth tx",
+  "volume": 10,
+  "sd": 13,
+  "qualifying_rows": [
+   "roofing corinth tx (10)"
+  ]
+ },
+ "crowley": {
+  "name": "Crowley",
+  "url": "/roofing-crowley-tx/",
+  "qualifies": true,
+  "existing": false,
+  "target": "roofing crowley tx",
+  "volume": 10,
+  "sd": 13,
+  "qualifying_rows": [
+   "roofing crowley tx (10)"
+  ]
+ },
+ "denton": {
+  "name": "Denton",
+  "url": "/roofing-denton-tx/",
+  "qualifies": true,
+  "existing": true,
+  "target": "roofer denton tx",
+  "volume": 590,
+  "sd": 28,
+  "qualifying_rows": [
+   "roofer denton tx (590)",
+   "roofing denton tx (320)",
+   "denton roofing companies (260)",
+   "denton texas roofing company (110)",
+   "roofing in denton tx (50)",
+   "denton county roofing (10)"
+  ]
+ },
+ "desoto": {
+  "name": "DeSoto",
+  "url": "/roofing-desoto-tx/",
+  "qualifies": true,
+  "existing": false,
+  "target": "roofing company desoto tx",
+  "volume": 10,
+  "sd": 30,
+  "qualifying_rows": [
+   "roofing company desoto tx (10)",
+   "roofing desoto tx (10)"
+  ]
+ },
+ "duncanville": {
+  "name": "Duncanville",
+  "url": "/roofing-duncanville-tx/",
+  "qualifies": true,
+  "existing": false,
+  "target": "roofing duncanville tx",
+  "volume": 20,
+  "sd": 36,
+  "qualifying_rows": [
+   "roofing duncanville tx (20)",
+   "duncanville roofing (10)"
+  ]
+ },
+ "ennis": {
+  "name": "Ennis",
+  "url": "/roofing-ennis-tx/",
+  "qualifies": true,
+  "existing": false,
+  "target": "roofing ennis tx",
+  "volume": 30,
+  "sd": 19,
+  "qualifying_rows": [
+   "roofing ennis tx (30)"
+  ]
+ },
+ "euless": {
+  "name": "Euless",
+  "url": "/roofing-euless-tx/",
+  "qualifies": true,
+  "existing": false,
+  "target": "roofing euless tx",
+  "volume": 140,
+  "sd": 10,
+  "qualifying_rows": [
+   "roofing euless tx (140)"
+  ]
+ },
+ "farmers-branch": {
+  "name": "Farmers Branch",
+  "url": "/roofing-farmers-branch-tx/",
+  "qualifies": true,
+  "existing": false,
+  "target": "farmers branch roofing",
+  "volume": 10,
+  "sd": 13,
+  "qualifying_rows": [
+   "farmers branch roofing (10)"
+  ]
+ },
+ "fate": {
+  "name": "Fate",
+  "url": "/roofing-fate-tx/",
+  "qualifies": false,
+  "existing": false,
+  "target": null,
+  "volume": 0,
+  "sd": null,
+  "qualifying_rows": []
+ },
+ "flower-mound": {
+  "name": "Flower Mound",
+  "url": "/roofing-company-flower-mound-tx/",
+  "qualifies": true,
+  "existing": true,
+  "target": "flower mound roofing company",
+  "volume": 210,
+  "sd": 30,
+  "qualifying_rows": [
+   "flower mound roofing company (210)",
+   "roofing flower mound tx (170)",
+   "flower mound roofing (170)",
+   "flower mound roofing companies (170)",
+   "flower mound roof repair (90)",
+   "flower mound roofing contractor (40)",
+   "flower mound roofers (30)"
+  ]
+ },
+ "forney": {
+  "name": "Forney",
+  "url": "/roofing-forney-tx/",
+  "qualifies": true,
+  "existing": false,
+  "target": "roofing forney tx",
+  "volume": 170,
+  "sd": 12,
+  "qualifying_rows": [
+   "roofing forney tx (170)"
+  ]
+ },
+ "fort-worth": {
+  "name": "Fort Worth",
+  "url": "/roofing-companies-fort-worth-tx/",
+  "qualifies": true,
+  "existing": true,
+  "target": "roofing fort worth tx",
+  "volume": 1600,
+  "sd": 40,
+  "qualifying_rows": [
+   "roofing fort worth tx (1600)",
+   "roof fort worth (1600)",
+   "fort worth roofing company (1300)",
+   "roofing repair fort worth tx (590)",
+   "roofing companies dallas fort worth (590)",
+   "fort worth roofing contractor (480)",
+   "roofing companies in dallas fort worth (390)",
+   "commercial roofing fort worth tx (320)",
+   "fort worth roofing supplies (260)",
+   "roof replacement fort worth tx (210)",
+   "roofing dallas fort worth (170)",
+   "roofing contractors in fort worth tx (90)",
+   "metal roofing fort worth tx (70)",
+   "best roofing companies in fort worth (70)",
+   "commercial roofers fort worth tx (40)"
+  ]
+ },
+ "frisco": {
+  "name": "Frisco",
+  "url": "/roofing-company-frisco-tx/",
+  "qualifies": true,
+  "existing": true,
+  "target": "roofing in frisco tx",
+  "volume": 880,
+  "sd": 17,
+  "qualifying_rows": [
+   "roofing in frisco tx (880)",
+   "roofing frisco tx (590)",
+   "frisco roofing contractors (390)",
+   "roofing contractor frisco tx (170)",
+   "frisco roofing companies (70)",
+   "commercial roofing frisco tx (10)"
+  ]
+ },
+ "garland": {
+  "name": "Garland",
+  "url": "/roofing-garland-tx/",
+  "qualifies": true,
+  "existing": true,
+  "target": "roofing garland tx",
+  "volume": 170,
+  "sd": 34,
+  "qualifying_rows": [
+   "roofing garland (880)",
+   "roofing company garland tx (320)",
+   "roofing garland tx (170)",
+   "garland roofing contractor (40)",
+   "roofing contractor garland tx (30)"
+  ]
+ },
+ "granbury": {
+  "name": "Granbury",
+  "url": "/roofing-granbury-tx/",
+  "qualifies": true,
+  "existing": false,
+  "target": "roofing granbury",
+  "volume": 110,
+  "sd": 23,
+  "qualifying_rows": [
+   "roofing granbury (110)",
+   "roofing companies in granbury tx (90)",
+   "roofing granbury tx (50)",
+   "roofers in granbury tx (10)",
+   "granbury roofers (10)"
+  ]
+ },
+ "grand-prairie": {
+  "name": "Grand Prairie",
+  "url": "/roofing-grand-prairie-tx/",
+  "qualifies": true,
+  "existing": true,
+  "target": "roofing grand prairie tx",
+  "volume": 170,
+  "sd": 16,
+  "qualifying_rows": [
+   "roofing grand prairie tx (170)",
+   "roofing grand prairie (170)"
+  ]
+ },
+ "grapevine": {
+  "name": "Grapevine",
+  "url": "/roofing-grapevine-tx/",
+  "qualifies": true,
+  "existing": false,
+  "target": "roofing grapevine tx",
+  "volume": 320,
+  "sd": 18,
+  "qualifying_rows": [
+   "roofing grapevine tx (320)",
+   "roof repair grapevine tx (320)",
+   "grapevine roof (320)",
+   "roofer grapevine tx (140)",
+   "roofing company grapevine (70)",
+   "roofing company grapevine tx (50)"
+  ]
+ },
+ "haltom-city": {
+  "name": "Haltom City",
+  "url": "/roofing-haltom-city-tx/",
+  "qualifies": true,
+  "existing": false,
+  "target": "roofing haltom city tx",
+  "volume": 10,
+  "sd": 9,
+  "qualifying_rows": [
+   "roofing haltom city tx (10)"
+  ]
+ },
+ "haslet": {
+  "name": "Haslet",
+  "url": "/roofing-haslet-tx/",
+  "qualifies": true,
+  "existing": false,
+  "target": "roofing haslet tx",
+  "volume": 10,
+  "sd": 18,
+  "qualifying_rows": [
+   "roofing haslet tx (10)"
+  ]
+ },
+ "heath": {
+  "name": "Heath",
+  "url": "/roofing-heath-tx/",
+  "qualifies": false,
+  "existing": false,
+  "target": null,
+  "volume": 0,
+  "sd": null,
+  "qualifying_rows": []
+ },
+ "highland-park": {
+  "name": "Highland Park",
+  "url": "/roofing-highland-park-tx/",
+  "qualifies": false,
+  "existing": false,
+  "target": null,
+  "volume": 0,
+  "sd": null,
+  "qualifying_rows": []
+ },
+ "highland-village": {
+  "name": "Highland Village",
+  "url": "/roofing-highland-village-tx/",
+  "qualifies": true,
+  "existing": false,
+  "target": "roofing highland village tx",
+  "volume": 10,
+  "sd": 27,
+  "qualifying_rows": [
+   "roofing highland village tx (10)"
+  ]
+ },
+ "hurst": {
+  "name": "Hurst",
+  "url": "/roofing-hurst-tx/",
+  "qualifies": true,
+  "existing": false,
+  "target": "roofing hurst tx",
+  "volume": 10,
+  "sd": 29,
+  "qualifying_rows": [
+   "roofing hurst tx (10)"
+  ]
+ },
+ "irving": {
+  "name": "Irving",
+  "url": "/roofing-company-irving-tx/",
+  "qualifies": true,
+  "existing": true,
+  "target": "roofing irving tx",
+  "volume": 320,
+  "sd": 29,
+  "qualifying_rows": [
+   "roofing irving tx (320)",
+   "roofing irving (110)"
+  ]
+ },
+ "kaufman": {
+  "name": "Kaufman",
+  "url": "/roofing-kaufman-tx/",
+  "qualifies": true,
+  "existing": false,
+  "target": "roofing kaufman tx",
+  "volume": 10,
+  "sd": 44,
+  "qualifying_rows": [
+   "roofing kaufman tx (10)"
+  ]
+ },
+ "keller": {
+  "name": "Keller",
+  "url": "/roofing-keller-tx/",
+  "qualifies": true,
+  "existing": false,
+  "target": "roofing keller",
+  "volume": 320,
+  "sd": 36,
+  "qualifying_rows": [
+   "roofing keller (320)",
+   "roofing keller tx (260)",
+   "roof repair keller tx (170)",
+   "roofing companies keller (170)",
+   "roofers in keller (10)"
+  ]
+ },
+ "lancaster": {
+  "name": "Lancaster",
+  "url": "/roofing-lancaster-tx/",
+  "qualifies": true,
+  "existing": false,
+  "target": "roofing lancaster tx",
+  "volume": 10,
+  "sd": 13,
+  "qualifying_rows": [
+   "roofing lancaster tx (10)"
+  ]
+ },
+ "lewisville": {
+  "name": "Lewisville",
+  "url": "/roofing-company-lewisville-tx/",
+  "qualifies": true,
+  "existing": true,
+  "target": "roofing lewisville tx",
+  "volume": 140,
+  "sd": 29,
+  "qualifying_rows": [
+   "roofing lewisville tx (140)",
+   "roofing lewisville (140)",
+   "lewisville roofing company (70)",
+   "lewisville roofers (20)"
+  ]
+ },
+ "little-elm": {
+  "name": "Little Elm",
+  "url": "/roofing-little-elm-tx/",
+  "qualifies": true,
+  "existing": false,
+  "target": "roofing company little elm",
+  "volume": 170,
+  "sd": 14,
+  "qualifying_rows": [
+   "roofing company little elm (170)",
+   "little elm roofing contractor (140)",
+   "roofing little elm tx (110)",
+   "little elm roofers (40)",
+   "little elm roofing permit (10)"
+  ]
+ },
+ "mansfield": {
+  "name": "Mansfield",
+  "url": "/roofing-mansfield-tx/",
+  "qualifies": true,
+  "existing": false,
+  "target": "mansfield roofing companies",
+  "volume": 390,
+  "sd": 28,
+  "qualifying_rows": [
+   "mansfield roofing companies (390)",
+   "roofing companies mansfield tx (140)",
+   "mansfield tx roofing (70)",
+   "roofing mansfield tx (50)",
+   "roof repair mansfield texas (40)",
+   "roofers mansfield tx (40)",
+   "roofing mansfield texas (10)"
+  ]
+ },
+ "mckinney": {
+  "name": "McKinney",
+  "url": "/roofing-companies-mckinney-tx/",
+  "qualifies": true,
+  "existing": true,
+  "target": "roofing companies mckinney tx",
+  "volume": 390,
+  "sd": 30,
+  "qualifying_rows": [
+   "mckinney texas roofing (590)",
+   "roofers in mckinney texas (480)",
+   "roofing companies mckinney tx (390)",
+   "roofing company mckinney tx (260)",
+   "roofing mckinney (260)",
+   "roofing mckinney tx (170)",
+   "roofers mckinney tx (170)",
+   "roofing company mckinney texas (90)",
+   "mckinney roof repair (90)",
+   "mckinney roofing services (20)",
+   "roofing mckinney texas (10)",
+   "roofing in mckinney (10)"
+  ]
+ },
+ "melissa": {
+  "name": "Melissa",
+  "url": "/roofing-melissa-tx/",
+  "qualifies": true,
+  "existing": false,
+  "target": "roofing melissa tx",
+  "volume": 10,
+  "sd": 26,
+  "qualifying_rows": [
+   "roofing melissa tx (10)"
+  ]
+ },
+ "mesquite": {
+  "name": "Mesquite",
+  "url": "/roofing-company-mesquite-tx/",
+  "qualifies": true,
+  "existing": true,
+  "target": "roofing mesquite tx",
+  "volume": 110,
+  "sd": 31,
+  "qualifying_rows": [
+   "roofing mesquite tx (110)",
+   "roofing mesquite (110)",
+   "mesquite roof (110)",
+   "mesquite roofing company (70)",
+   "roofing companies mesquite tx (50)",
+   "mesquite roofing companies (50)",
+   "roofers in mesquite texas (30)",
+   "roofers in mesquite tx (30)",
+   "roofer mesquite tx (10)"
+  ]
+ },
+ "midlothian": {
+  "name": "Midlothian",
+  "url": "/roofing-midlothian-tx/",
+  "qualifies": true,
+  "existing": false,
+  "target": "roofing company midlothian tx",
+  "volume": 40,
+  "sd": 18,
+  "qualifying_rows": [
+   "roofing company midlothian tx (40)",
+   "roofing in midlothian (40)",
+   "roofing midlothian tx (30)",
+   "midlothian roof repair (10)"
+  ]
+ },
+ "murphy": {
+  "name": "Murphy",
+  "url": "/roofing-murphy-tx/",
+  "qualifies": true,
+  "existing": false,
+  "target": "roofing murphy tx",
+  "volume": 10,
+  "sd": 13,
+  "qualifying_rows": [
+   "roofing murphy tx (10)"
+  ]
+ },
+ "north-richland-hills": {
+  "name": "North Richland Hills",
+  "url": "/roofing-north-richland-hills-tx/",
+  "qualifies": true,
+  "existing": false,
+  "target": "roofing north richland hills tx",
+  "volume": 50,
+  "sd": 12,
+  "qualifying_rows": [
+   "roofing north richland hills tx (50)",
+   "roofing north richland hills (50)",
+   "north richland hills roofing (30)",
+   "roofing companies in north richland hills tx (20)"
+  ]
+ },
+ "plano": {
+  "name": "Plano",
+  "url": "/roofing-contractors-plano-tx/",
+  "qualifies": true,
+  "existing": true,
+  "target": "plano tx roofing companies",
+  "volume": 720,
+  "sd": 29,
+  "qualifying_rows": [
+   "plano tx roofing companies (720)",
+   "plano texas roofing (590)",
+   "roofing plano tx (480)",
+   "roofing in plano (480)",
+   "roofers plano tx (210)",
+   "roofing company plano tx (140)",
+   "commercial roofing plano tx (140)"
+  ]
+ },
+ "princeton": {
+  "name": "Princeton",
+  "url": "/roofing-princeton-tx/",
+  "qualifies": true,
+  "existing": false,
+  "target": "roofers princeton tx",
+  "volume": 10,
+  "sd": 13,
+  "qualifying_rows": [
+   "roofers princeton tx (10)"
+  ]
+ },
+ "prosper": {
+  "name": "Prosper",
+  "url": "/roofing-prosper-tx/",
+  "qualifies": true,
+  "existing": false,
+  "target": "roofing prosper tx",
+  "volume": 140,
+  "sd": 11,
+  "qualifying_rows": [
+   "roofing prosper tx (140)",
+   "roofing company prosper tx (90)",
+   "roofing prosper (30)"
+  ]
+ },
+ "red-oak": {
+  "name": "Red Oak",
+  "url": "/roofing-red-oak-tx/",
+  "qualifies": true,
+  "existing": false,
+  "target": "roofing red oak tx",
+  "volume": 20,
+  "sd": 36,
+  "qualifying_rows": [
+   "roofing red oak tx (20)"
+  ]
+ },
+ "richardson": {
+  "name": "Richardson",
+  "url": "/roofing-company-richardson-tx/",
+  "qualifies": true,
+  "existing": true,
+  "target": "roofing company richardson",
+  "volume": 260,
+  "sd": 24,
+  "qualifying_rows": [
+   "roofing richardson tx (260)",
+   "roofing company richardson (260)",
+   "roofing contractor richardson tx (50)",
+   "richardson roof repair (10)"
+  ]
+ },
+ "roanoke": {
+  "name": "Roanoke",
+  "url": "/roofing-roanoke-tx/",
+  "qualifies": true,
+  "existing": false,
+  "target": "roofing roanoke tx",
+  "volume": 10,
+  "sd": 26,
+  "qualifying_rows": [
+   "roofing roanoke tx (10)",
+   "roof repair roanoke tx (10)"
+  ]
+ },
+ "rockwall": {
+  "name": "Rockwall",
+  "url": "/roofing-rockwall-tx/",
+  "qualifies": true,
+  "existing": false,
+  "target": "roofing rockwall",
+  "volume": 720,
+  "sd": 38,
+  "qualifying_rows": [
+   "roofing rockwall (720)",
+   "roofing rockwall tx (320)",
+   "roofing in rockwall (320)",
+   "rockwall roofing companies (140)",
+   "roofing companies in rockwall tx (50)",
+   "roofing company rockwall texas (40)"
+  ]
+ },
+ "rowlett": {
+  "name": "Rowlett",
+  "url": "/roofing-rowlett-tx/",
+  "qualifies": true,
+  "existing": false,
+  "target": "roofing rowlett tx",
+  "volume": 110,
+  "sd": 19,
+  "qualifying_rows": [
+   "roofing rowlett tx (110)",
+   "rowlett roofing (70)",
+   "roofing company rowlett tx (50)"
+  ]
+ },
+ "royse-city": {
+  "name": "Royse City",
+  "url": "/roofing-royse-city-tx/",
+  "qualifies": false,
+  "existing": false,
+  "target": null,
+  "volume": 0,
+  "sd": null,
+  "qualifying_rows": []
+ },
+ "sachse": {
+  "name": "Sachse",
+  "url": "/roofing-sachse-tx/",
+  "qualifies": true,
+  "existing": false,
+  "target": "roofing sachse tx",
+  "volume": 10,
+  "sd": 23,
+  "qualifying_rows": [
+   "roofing sachse tx (10)"
+  ]
+ },
+ "saginaw": {
+  "name": "Saginaw",
+  "url": "/roofing-saginaw-tx/",
+  "qualifies": true,
+  "existing": false,
+  "target": "roofing saginaw tx",
+  "volume": 10,
+  "sd": 13,
+  "qualifying_rows": [
+   "roofing saginaw tx (10)"
+  ]
+ },
+ "seagoville": {
+  "name": "Seagoville",
+  "url": "/roofing-seagoville-tx/",
+  "qualifies": true,
+  "existing": false,
+  "target": "roofing seagoville tx",
+  "volume": 10,
+  "sd": 44,
+  "qualifying_rows": [
+   "roofing seagoville tx (10)"
+  ]
+ },
+ "southlake": {
+  "name": "Southlake",
+  "url": "/roofing-southlake-tx/",
+  "qualifies": true,
+  "existing": false,
+  "target": "roofer southlake tx",
+  "volume": 90,
+  "sd": 27,
+  "qualifying_rows": [
+   "roofer southlake tx (90)",
+   "roofing southlake tx (70)",
+   "southlake roofing company (50)",
+   "roofing contractor southlake tx (20)"
+  ]
+ },
+ "sunnyvale": {
+  "name": "Sunnyvale",
+  "url": "/roofing-sunnyvale-tx/",
+  "qualifies": true,
+  "existing": false,
+  "target": "roofing sunnyvale tx",
+  "volume": 10,
+  "sd": 13,
+  "qualifying_rows": [
+   "roofing sunnyvale tx (10)"
+  ]
+ },
+ "terrell": {
+  "name": "Terrell",
+  "url": "/roofing-terrell-tx/",
+  "qualifies": false,
+  "existing": false,
+  "target": null,
+  "volume": 0,
+  "sd": null,
+  "qualifying_rows": []
+ },
+ "the-colony": {
+  "name": "The Colony",
+  "url": "/roofing-the-colony-tx/",
+  "qualifies": true,
+  "existing": false,
+  "target": "roofing the colony tx",
+  "volume": 40,
+  "sd": 27,
+  "qualifying_rows": [
+   "roofing the colony tx (40)"
+  ]
+ },
+ "trophy-club": {
+  "name": "Trophy Club",
+  "url": "/roofing-trophy-club-tx/",
+  "qualifies": true,
+  "existing": false,
+  "target": "trophy club roofing",
+  "volume": 10,
+  "sd": 35,
+  "qualifying_rows": [
+   "trophy club roofing (10)"
+  ]
+ },
+ "university-park": {
+  "name": "University Park",
+  "url": "/roofing-university-park-tx/",
+  "qualifies": false,
+  "existing": false,
+  "target": null,
+  "volume": 0,
+  "sd": null,
+  "qualifying_rows": []
+ },
+ "watauga": {
+  "name": "Watauga",
+  "url": "/roofing-watauga-tx/",
+  "qualifies": true,
+  "existing": false,
+  "target": "roofing watauga tx",
+  "volume": 10,
+  "sd": 13,
+  "qualifying_rows": [
+   "roofing watauga tx (10)"
+  ]
+ },
+ "waxahachie": {
+  "name": "Waxahachie",
+  "url": "/roofing-waxahachie-tx/",
+  "qualifies": true,
+  "existing": false,
+  "target": "roofing waxahachie tx",
+  "volume": 260,
+  "sd": 31,
+  "qualifying_rows": [
+   "roofing waxahachie tx (260)",
+   "waxahachie roofing (260)",
+   "waxahachie roofing companies (260)",
+   "roofing waxahachie (40)"
+  ]
+ },
+ "weatherford": {
+  "name": "Weatherford",
+  "url": "/roofing-weatherford-tx/",
+  "qualifies": true,
+  "existing": false,
+  "target": "roofing weatherford texas",
+  "volume": 480,
+  "sd": 24,
+  "qualifying_rows": [
+   "roofing weatherford texas (480)",
+   "roofing companies weatherford tx (390)",
+   "roofer weatherford (390)",
+   "roofing weatherford tx (320)",
+   "weatherford roofing companies (170)",
+   "weatherford roofing company (140)",
+   "weatherford roofing (110)",
+   "commercial roofing weatherford tx (50)",
+   "metal roofing weatherford tx (50)",
+   "weatherford tx roofing (50)",
+   "parker county roofing weatherford tx (40)"
+  ]
+ },
+ "wylie": {
+  "name": "Wylie",
+  "url": "/roofing-wylie-tx/",
+  "qualifies": true,
+  "existing": false,
+  "target": "roofing wylie tx",
+  "volume": 90,
+  "sd": 13,
+  "qualifying_rows": [
+   "roofing wylie tx (90)",
+   "wylie roof (90)",
+   "roofing company wylie tx (70)",
+   "roofing companies in wylie tx (30)"
+  ]
+ }
+}
